@@ -1,0 +1,25 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".google.com"
+  [url-cookie "NID" "513=as6_MRZJj5P3fde5rT3MaxbIC7cEFQpe3nMUlZlND_qNbdC-uO1YV1O6o6vtFpuMav2l7QfB1o-CMTLUjNq_TBMD9DXEUr4r6FGsf-KCh4TuCiHg6N6dK-xlGMorvfWxYBuZQsApW_qLcYNhuY6XOGNGdVreCKbF4G4MDos4S40" "Mon, 28-Oct-2024 06:06:53 GMT" "/" ".google.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".google.com"
+  [url-cookie "AEC" "AQTF6Hzz7d1OvitXqEkAaKQoKPXWrOQ6vZbulFM0hgac9IqAf8QLhd-D1fQ" "Mon, 09-Dec-2024 18:38:08 GMT" "/" ".google.com" t])
+ (".youtube.com"
+  [url-cookie "VISITOR_PRIVACY_METADATA" "CgJJThIEGgAgXg%3D%3D" "Sun, 12-Jan-2025 07:06:10 GMT" "/" ".youtube.com" t]
+  [url-cookie "VISITOR_INFO1_LIVE" "Pe0Sh0pYKtY" "Sun, 12-Jan-2025 07:06:10 GMT" "/" ".youtube.com" t])
+ ("github.com"
+  [url-cookie "logged_in" "no" "Fri, 09 May 2025 07:14:35 GMT" "/" "github.com" t]
+  [url-cookie "_octo" "GH1.1.1549639034.1715238875" "Fri, 09 May 2025 07:14:35 GMT" "/" "github.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; coding: utf-8-emacs-unix
+;; End:
+
+;;; cookies ends here

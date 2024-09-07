@@ -1,0 +1,4 @@
+/Users/sauravspurushothaman/.emacs.d/elpa/vterm-20240318.1617/build/CMakeFiles/vterm-module.dir
+/Users/sauravspurushothaman/.emacs.d/elpa/vterm-20240318.1617/build/CMakeFiles/run.dir
+/Users/sauravspurushothaman/.emacs.d/elpa/vterm-20240318.1617/build/CMakeFiles/edit_cache.dir
+/Users/sauravspurushothaman/.emacs.d/elpa/vterm-20240318.1617/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,557 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/Users/sauravspurushothaman/coding-challenges/clj-chat/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges/clj-chat/.."))
+ ("/Users/sauravspurushothaman/coding-challenges/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges/echoecho"))
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges/echoecho/src"))
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/src/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges/echoecho/src/echoecho"))
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/src/echoecho/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges/echoecho/src/echoecho/chat_name.clj"))
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/src/echoecho/chat_name.clj" . 1661)
+ ("/Users/sauravspurushothaman/unifize-server/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/api"))
+ ("/Users/sauravspurushothaman/unifize-web/src/api/workflow.js" . 5896)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/service.clj"))
+ ("/Users/sauravspurushothaman/unifize-web/src/index.js" . 1101)
+ ("/Users/sauravspurushothaman/temp-buff" . 20224)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/checklist.clj" . 52360)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/" . 2134)
+ ("/Users/sauravspurushothaman/.emacs.d/init.el" . 3072)
+ ("/Users/sauravspurushothaman/Downloads/"
+  (dired-filename . "/Users/sauravspurushothaman/Downloads/checklist_1131833_20240902111848107.json"))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/src/kea/template/test.clj" . 728)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/service.clj" . 119694)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/process.clj" . 34998)
+ ("/Users/sauravspurushothaman/clj-buff.clj" . 1455)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/data_audit.clj" . 429)
+ ("/Users/sauravspurushothaman/Downloads/bulk-update-response (1).json" . 23292)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/server.clj" . 1978)
+ ("/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps"))
+ ("/Users/sauravspurushothaman/unifize-web/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-web/deploy_internal.sh"))
+ ("/Users/sauravspurushothaman/test/programming-clojure/src/programming_clojure/functional_programming.clj" . 599)
+ ("/Users/sauravspurushothaman/test/programming-clojure/src/programming_clojure/"
+  (dired-filename . "/Users/sauravspurushothaman/test/programming-clojure/src/programming_clojure/notes.html"))
+ ("/Users/sauravspurushothaman/test/programming-clojure/src/programming_clojure/demo.clj" . 1704)
+ ("/Users/sauravspurushothaman/test/programming-clojure/src/"
+  (dired-filename . "/Users/sauravspurushothaman/test/programming-clojure/src/programming_clojure"))
+ ("/Users/sauravspurushothaman/test/programming-clojure/"
+  (dired-filename . "/Users/sauravspurushothaman/test/programming-clojure/src"))
+ ("/Users/sauravspurushothaman/coding-challenges/clj-chat/src/clj_chat/core.clj" . 1473)
+ ("/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/reader/transformer.clj" . 5512)
+ ("/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/report/core.clj" . 6478)
+ ("/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/report/process.clj" . 255)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/utils.clj" . 2165)
+ ("/Users/sauravspurushothaman/test/clj-api/.cpcache/"
+  (dired-filename . "/Users/sauravspurushothaman/test/clj-api/.cpcache/.."))
+ ("/Users/sauravspurushothaman/test/clj-api/src/clj_api/components/example_component.clj" . 698)
+ ("/Users/sauravspurushothaman/test/clj-api/src/clj_api/components/"
+  (dired-filename . "/Users/sauravspurushothaman/test/clj-api/src/clj_api/components/.."))
+ ("/Users/sauravspurushothaman/test/clj-api/src/clj_api/core.clj" . 1023)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/permission.clj" . 6890)
+ ("/Users/sauravspurushothaman/unifize-server/apps/budgie/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/budgie/README.md"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/falcon/README.md" . 278)
+ ("/Users/sauravspurushothaman/unifize-server/apps/falcon/src/com/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/falcon/src/com/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/falcon/src/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/falcon/src/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/falcon/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/falcon/profiles.clj.example"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/falcon/src/com/unifize/falcon.clj" . 1053)
+ ("/Users/sauravspurushothaman/unifize-server/apps/falcon/src/com/unifize/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/falcon/src/com/unifize/falcon"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/falcon/profiles.clj.example" . 893)
+ ("/Users/sauravspurushothaman/unifize-server/apps/falcon/src/com/unifize/falcon/kafka.clj" . 3594)
+ ("/Users/sauravspurushothaman/unifize-server/apps/falcon/src/com/unifize/falcon/file.clj" . 2423)
+ ("/Users/sauravspurushothaman/unifize-server/apps/falcon/src/com/unifize/falcon/channel.clj" . 187)
+ ("/Users/sauravspurushothaman/unifize-server/apps/falcon/src/com/unifize/falcon/chatroom.clj" . 6112)
+ ("/Users/sauravspurushothaman/unifize-server/apps/falcon/src/com/unifize/falcon/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/falcon/src/com/unifize/falcon/repl.clj"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/falcon/src/com/unifize/falcon/repl.clj" . 893)
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/src/echoecho/echo.clj" . 1234)
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/src/echoecho/server.clj" . 3328)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/firebase.clj" . 42382)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/notification.clj" . 1143)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/notification/core.clj" . 30887)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/notification/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/notification/checklist.clj"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/notification/checklist.clj" . 21734)
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/src/kea/template/template_1003.clj" . 21122)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/logging/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/logging/."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker/generators/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker/generators/adobe.clj"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker/generators/adobe.clj" . 2843)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker/processor.clj" . 6297)
+ ("/Users/sauravspurushothaman/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/redis.clj" . 640)
+ ("/Users/sauravspurushothaman/unifize-server/apps/xtdb-builder/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/xtdb-builder/src"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/xtdb-builder/src/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/xtdb-builder/src/com"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/xtdb-builder/src/com/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/xtdb-builder/src/com/unifize"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/xtdb-builder/src/com/unifize/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/web.clj"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/web.clj" . 4745)
+ ("/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/reader/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/reader/.."))
+ ("/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/cache.clj" . 504)
+ ("/Users/sauravspurushothaman/.emacs.d/workspace/.cache/clojure.core.cache.wrapped.clj" . 1125)
+ ("/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src"))
+ ("/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com"))
+ ("/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/unifize"))
+ ("/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/unifize/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb"))
+ ("/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/web.clj"))
+ ("/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/reader/process.clj" . 9096)
+ ("/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/reader/core.clj" . 6284)
+ ("/Users/sauravspurushothaman/unifize-server-xtdb/unifize-server/apps/xtdb-builder/src/com/unifize/xtdb/web.clj" . 3011)
+ ("/Users/sauravspurushothaman/coding-challenges/clj-chat/deps.edn" . 27)
+ ("/Users/sauravspurushothaman/test/clj-api/deps.edn" . 154)
+ ("/Users/sauravspurushothaman/test/clj-api/"
+  (dired-filename . "/Users/sauravspurushothaman/test/clj-api/src"))
+ ("/Users/sauravspurushothaman/test/clj-api/src/"
+  (dired-filename . "/Users/sauravspurushothaman/test/clj-api/src/clj_api"))
+ ("/Users/sauravspurushothaman/test/clj-api/src/clj_api/"
+  (dired-filename . "/Users/sauravspurushothaman/test/clj-api/src/clj_api/config.clj"))
+ ("/Users/sauravspurushothaman/coding-challenges/clj-chat/src/clj_chat/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges/clj-chat/src/clj_chat/.."))
+ ("/Users/sauravspurushothaman/test/clj-api/src/clj_api/config.clj" . 89)
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/src/echoecho/chat.clj" . 595)
+ ("/Users/sauravspurushothaman/coding-challenges/clj-chat/src/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges/clj-chat/src/.."))
+ ("/Users/sauravspurushothaman/coding-challenges/clj-chat/README.md" . 450)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/core.clj" . 241785)
+ ("/Users/sauravspurushothaman/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges"))
+ ("/Users/sauravspurushothaman/tsoding/koil/build.js" . 938)
+ ("/Users/sauravspurushothaman/tsoding/koil/client.mjs" . 4930)
+ ("/Users/sauravspurushothaman/tsoding/koil/"
+  (dired-filename . "/Users/sauravspurushothaman/tsoding/koil/client.mjs"))
+ ("/Users/sauravspurushothaman/tsoding/koil/client.mts" . 6694)
+ ("/Users/sauravspurushothaman/emacs_init/init.el" . 2139)
+ ("/Users/sauravspurushothaman/test/c/select.c" . 2944)
+ ("/Users/sauravspurushothaman/Downloads/bulk-update-response.json" . 738)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/user.clj" . 2965)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/org.clj" . 22213)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/task/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/task/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker/generators/pdfgen.clj" . 898)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-aggregator/project.clj" . 532)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-aggregator/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-aggregator/src"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-aggregator/src/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-aggregator/src/com"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-aggregator/src/com/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-aggregator/src/com/unifize"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-aggregator/src/com/unifize/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-aggregator/src/com/unifize/pdf"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-aggregator/src/com/unifize/pdf/aggregator/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-aggregator/src/com/unifize/pdf/aggregator/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-aggregator/src/com/unifize/pdf/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-aggregator/src/com/unifize/pdf/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/import.clj" . 663)
+ ("/Users/sauravspurushothaman/.cache/clojure-lsp/java/decompiled/com.adobe.documentservices/pdfservices-sdk/pdfservices-sdk-3.4.0/src/com/adobe/pdfservices/operation/ExecutionContext.java" . 2)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker/generators.clj"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker/generators.clj" . 823)
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps"))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea"))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/src"))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/src/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/src/kea"))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/src/kea/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/src/kea/template"))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/src/kea/template/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/src/kea/template/template_1003.clj"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/pdfservices-api-credentials.json" . 347)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/task/core.clj" . 554)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/pdf.clj" . 11822)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/chatroom_checklist.clj" . 18500)
+ ("/Users/sauravspurushothaman/.emacs.d/workspace/.cache/gloss.core.clj" . 3113)
+ ("/Users/sauravspurushothaman/.emacs.d/workspace/.cache/manifold.stream.clj" . 9715)
+ ("/Users/sauravspurushothaman/.emacs.d/workspace/.cache/aleph.tcp.clj" . 2779)
+ ("/Users/sauravspurushothaman/.emacs.d/"
+  (dired-filename . "/Users/sauravspurushothaman/.emacs.d/elpa"))
+ ("/Users/sauravspurushothaman/.emacs.d/elpa/"
+  (dired-filename . "/Users/sauravspurushothaman/.emacs.d/elpa/horizon-theme-20200720.1832"))
+ ("/Users/sauravspurushothaman/.emacs.d/elpa/horizon-theme-20200720.1832/"
+  (dired-filename . "/Users/sauravspurushothaman/.emacs.d/elpa/horizon-theme-20200720.1832/horizon-theme.el"))
+ ("/Users/sauravspurushothaman/.emacs.d/elpa/horizon-theme-20200720.1832/horizon-theme.el" . 2636)
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/README.md" . 946)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker.clj" . 786)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/profiles.clj.example" . 473)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/profiles.clj" . 629)
+ ("/Users/sauravspurushothaman/unifize-server/apps/kea/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/kea/.."))
+ ("/Users/sauravspurushothaman/cherry.txt" . 142)
+ ("/Users/sauravspurushothaman/emacs_init/"
+  (dired-filename . "/Users/sauravspurushothaman/emacs_init/init.el"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker/kafka.clj" . 1083)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/project.clj" . 964)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker/api.clj" . 533)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker/auth.clj" . 307)
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/deps.edn" . 104)
+ ("/Users/sauravspurushothaman/test/"
+  (dired-filename . "/Users/sauravspurushothaman/test/clj-api"))
+ ("/Users/sauravspurushothaman/test/clj-api/resources/"
+  (dired-filename . "/Users/sauravspurushothaman/test/clj-api/resources/.."))
+ ("/Users/sauravspurushothaman/Downloads/checklist_265_20240820114918814.json" . 70603)
+ ("/Users/sauravspurushothaman/Downloads/checklist_988932_20240821045008932.json" . 2308)
+ ("/Users/sauravspurushothaman/.emacs.d/workspace/.cache/clojure.set.clj" . 3222)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/checklist/approval.clj" . 34258)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/checklist/conversation.clj" . 23903)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/checklist/file.clj" . 12998)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/checklist/linked_field.clj" . 48015)
+ ("/Users/sauravspurushothaman/Downloads/checklist_265_20240821110251844.json" . 82668)
+ ("/Users/sauravspurushothaman/Downloads/checklist_265_20240821111513073 (1).json" . 12881)
+ ("/Users/sauravspurushothaman/Downloads/checklist_265_20240821111513073.json" . 81695)
+ ("/Users/sauravspurushothaman/Downloads/checklist_265_20240821111226640.json" . 75175)
+ ("/Users/sauravspurushothaman/Downloads/checklist_265_20240821110631609.json" . 70863)
+ ("/Users/sauravspurushothaman/sample.sql" . 602)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/cache/chatroom.clj" . 4488)
+ ("/Users/sauravspurushothaman/Downloads/checklist_265_20240820114918814 (1).json" . 71142)
+ ("/Users/sauravspurushothaman/Downloads/checklist_988932_20240821045121105.json" . 8584)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/resources/migrations/sql/20240722162251-add-title-to-workflow.up.sql" . 100)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/resources/migrations/sql/20240228084018-sso-config-permission.up.sql" . 1861)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/resources/migrations/sql/20190403105524-phone-number-in-app-user.up.sql" . 162)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/resources/migrations/sql/20190311124123-workflow-template-settings.up.sql" . 586)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/resources/migrations/sql/20190321051738-creator-to-be-null-in-chatroom.up.sql" . 142)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/resources/migrations/sql/20190516091329-workflow-with-checklist.down.sql" . 334)
+ ("/Users/sauravspurushothaman/unifize-server/apps/kea/src/kea/template/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/kea/src/kea/template/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/kea/src/kea/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/kea/src/kea/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/kea/src/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/kea/src/.."))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/profiles.clj.example" . 91)
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/profiles.clj" . 231)
+ ("/Users/sauravspurushothaman/unifize-server/apps/kea/profiles.clj" . 231)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/resources/migrations/sql/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/api/resources/migrations/sql/20190516091329-workflow-with-checklist.down.sql"))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/target/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/target/.."))
+ ("/Users/sauravspurushothaman/Downloads/checklist_110632_20240820052310845.json" . 218955)
+ ("/Users/sauravspurushothaman/unifize-server/apps/kea/src/kea/template/test.clj" . 15341)
+ ("/Users/sauravspurushothaman/infrastructure/"
+  (dired-filename . "/Users/sauravspurushothaman/infrastructure/api-server"))
+ ("/Users/sauravspurushothaman/infrastructure/api-server/"
+  (dired-filename . "/Users/sauravspurushothaman/infrastructure/api-server/overlays"))
+ ("/Users/sauravspurushothaman/infrastructure/api-server/overlays/"
+  (dired-filename . "/Users/sauravspurushothaman/infrastructure/api-server/overlays/production"))
+ ("/Users/sauravspurushothaman/infrastructure/api-server/overlays/production/"
+  (dired-filename . "/Users/sauravspurushothaman/infrastructure/api-server/overlays/production/kustomization.yaml"))
+ ("/Users/sauravspurushothaman/infrastructure/api-server/overlays/production/kustomization.yaml" . 171)
+ ("/Users/sauravspurushothaman/unifize-server.git/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider"))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/kea/wavestream_test.pdf" . 33220)
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/pdf-worker/profiles.clj.example" . 45)
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/pdf-worker/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/pdf-worker/.."))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/adaptive-health/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/adaptive-health/.."))
+ ("/Users/sauravspurushothaman/.emacs.d/elpa/gruber-darker-theme-20231026.2031/"
+  (dired-filename . "/Users/sauravspurushothaman/.emacs.d/elpa/gruber-darker-theme-20231026.2031/.."))
+ ("/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/unifize/cloud/azure/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/unifize/cloud/azure/.."))
+ ("/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/unifize/cloud/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/unifize/cloud/aws"))
+ ("/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/unifize/cloud/aws/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/unifize/cloud/aws/s3.clj"))
+ ("/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/unifize/cloud/aws/s3.clj" . 11493)
+ ("/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/unifize/cloud/azure/blob.clj" . 9006)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/group.clj" . 4814)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/notification/chatroom_checklist.clj" . 766)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/common.clj" . 7833)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/migrations/sync_chatroom_in_firestore.clj" . 1353)
+ ("/Users/sauravspurushothaman/.emacs.d/elpa/gruber-darker-theme-20231026.2031/gruber-darker-theme.el" . 15997)
+ ("/Users/sauravspurushothaman/tsoding/gruber-darker-theme/gruber-darker-theme.el" . 14821)
+ ("/Users/sauravspurushothaman/tsoding/gruber-darker-theme/"
+  (dired-filename . "/Users/sauravspurushothaman/tsoding/gruber-darker-theme/gruber-darker-theme.el"))
+ ("/Users/sauravspurushothaman/unifize-server/.circleci/config.yml" . 688)
+ ("/Users/sauravspurushothaman/.emacs.d/workspace/.cache/clojure.core.clj" . 209543)
+ ("/Users/sauravspurushothaman/.emacs.d/workspace/.cache/com.climate.claypoole.lazy.clj" . 3461)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/notification/org.clj" . 718)
+ ("/Users/sauravspurushothaman/Downloads/checklist_93627_20240806083951492.json" . 1542)
+ ("/Users/sauravspurushothaman/Downloads/checklist_970256_20240731121340197.json" . 22)
+ ("/Users/sauravspurushothaman/infrastructure/terraform/01-infra/aks.tf" . 2440)
+ ("/Users/sauravspurushothaman/test/aswana.py" . 6420)
+ ("/Users/sauravspurushothaman/test/dijkstras.py" . 711)
+ ("/Users/sauravspurushothaman/.emacs.d/.cache/treemacs-persist" . 37)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/channel.clj" . 1150)
+ ("/Users/sauravspurushothaman/infrastructure/api-server/base/"
+  (dired-filename . "/Users/sauravspurushothaman/infrastructure/api-server/base/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/checklist/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/checklist/user.clj"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/checklist/user.clj" . 12265)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/README.md" . 322)
+ ("/Users/sauravspurushothaman/Downloads/checklist_265_20240816033421963.json" . 66344)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/event/pdf.clj" . 2514)
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/.lsp/.cache/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges/echoecho/.lsp/.cache/.."))
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/.lsp/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges/echoecho/.lsp/.."))
+ ("/Users/sauravspurushothaman/unifize-server.git/master/apps/api/" . 1318)
+ ("/Users/sauravspurushothaman/unifize-server.git/fix-default-users/apps/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/fix-default-users/apps/api"))
+ ("/Users/sauravspurushothaman/unifize-server.git/fix-default-users/apps/api/src/unifize/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/fix-default-users/apps/api/src/unifize/analytics"))
+ ("/Users/sauravspurushothaman/unifize-server.git/fix-default-users/apps/api/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/fix-default-users/apps/api/profiles.clj.example"))
+ ("/Users/sauravspurushothaman/unifize-server.git/fix-default-users/apps/api/src/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/fix-default-users/apps/api/src/unifize"))
+ ("/Users/sauravspurushothaman/.emacs.d/elpa/zenburn-theme-20231120.2002/zenburn-theme.el" . 3014)
+ ("/Users/sauravspurushothaman/.emacs.d/elpa/zenburn-theme-20231120.2002/"
+  (dired-filename . "/Users/sauravspurushothaman/.emacs.d/elpa/zenburn-theme-20231120.2002/zenburn-theme.el"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/workflow.clj" . 13711)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/email.clj" . 3750)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/rule.clj" . 12306)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/checklist/number.clj" . 5353)
+ ("/Users/sauravspurushothaman/unifize-server.git/worktrees/master/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/worktrees/master/.."))
+ ("/Users/sauravspurushothaman/unifize-server.git/worktrees/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/worktrees/.."))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/api/src/unifize/app/route.clj" . 101)
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/api/src/unifize/app/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/api/src/unifize/app/.."))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/api/src/unifize/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/api/src/unifize/.."))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/api/src/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/api/src/.."))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/api/profiles.clj.example" . 328)
+ ("/Users/sauravspurushothaman/unifize-server.git/master/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/master/apps"))
+ ("/Users/sauravspurushothaman/unifize-server.git/master/apps/pdf-aggregator/src/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/master/apps/pdf-aggregator/src/.."))
+ ("/Users/sauravspurushothaman/unifize-server.git/master/apps/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/master/apps/api"))
+ ("/Users/sauravspurushothaman/unifize-server.git/master/apps/api/src/ttk_prestige/core.clj" . 173)
+ ("/Users/sauravspurushothaman/unifize-server.git/master/apps/api/src/ttk_prestige/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/master/apps/api/src/ttk_prestige/.."))
+ ("/Users/sauravspurushothaman/unifize-server.git/master/apps/api/src/user.clj" . 139)
+ ("/Users/sauravspurushothaman/unifize-server.git/master/apps/api/src/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/master/apps/api/src/unifize"))
+ ("/Users/sauravspurushothaman/unifize-server.git/master/apps/api/src/unifize/email.clj" . 461)
+ ("/Users/sauravspurushothaman/unifize-server.git/master/apps/api/src/unifize/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/master/apps/api/src/unifize/.."))
+ ("/Users/sauravspurushothaman/unifize-server.git/refs/heads/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/refs/heads/.."))
+ ("/Users/sauravspurushothaman/unifize-server.git/refs/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/refs/.."))
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/api/project.clj" . 4704)
+ ("/Users/sauravspurushothaman/unifize-server.git/master/apps/api/profiles.clj" . 2221)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/profiles.clj.example" . 1497)
+ ("/Users/sauravspurushothaman/unifize-server.git/envs/profiles.clj.example.api" . 772)
+ ("/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/api/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/clj-pdf-provider/apps/api/project.clj"))
+ ("/Users/sauravspurushothaman/unifize-server.git/envs/profiles.clj.example.pdf-worker" . 1344)
+ ("/Users/sauravspurushothaman/unifize-server.git/master/apps/pdf-aggregator/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/master/apps/pdf-aggregator/.."))
+ ("/Users/sauravspurushothaman/unifize-server.git/envs/profiles.clj.example.pdf-aggregator" . 1289)
+ ("/Users/sauravspurushothaman/unifize-server.git/create_worktree.sh" . 266)
+ ("/Users/sauravspurushothaman/unifize-server.git/envs/" . 474)
+ ("/Users/sauravspurushothaman/unifize-server.git/fix-default-users/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server.git/fix-default-users/apps"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/user.clj" . 290)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/utils/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/utils/csv_import.clj"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/utils/csv_import.clj" . 4462)
+ ("/Users/sauravspurushothaman/test/programming-clojure/src/programming_clojure/notes.org" . 11193)
+ ("/Users/sauravspurushothaman/test/programming-clojure/src/programming_clojure/notes.txt" . 8278)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/user.clj" . 232)
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/.cpcache/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges/echoecho/.cpcache/.."))
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/.clj-kondo/.cache/v1/clj/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges/echoecho/.clj-kondo/.cache/v1/clj/.."))
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/.clj-kondo/.cache/v1/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges/echoecho/.clj-kondo/.cache/v1/.."))
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/.clj-kondo/.cache/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges/echoecho/.clj-kondo/.cache/.."))
+ ("/Users/sauravspurushothaman/coding-challenges/echoecho/.clj-kondo/"
+  (dired-filename . "/Users/sauravspurushothaman/coding-challenges/echoecho/.clj-kondo/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/app.clj" . 20085)
+ ("/Users/sauravspurushothaman/test/c/"
+  (dired-filename . "/Users/sauravspurushothaman/test/c/select"))
+ ("/Users/sauravspurushothaman/infrastructure/pdf-worker/"
+  (dired-filename . "/Users/sauravspurushothaman/infrastructure/pdf-worker/kustomization.yaml"))
+ ("/Users/sauravspurushothaman/infrastructure/pdf-worker/kustomization.yaml" . 292)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/.clj-kondo/.cache/v1/clj/com.unifize.pdf.worker.api.transit.json" . 81)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/.clj-kondo/.cache/v1/clj/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/.clj-kondo/.cache/v1/clj/aleph.flow.transit.json"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/resources/migrations/sql/20181023020640-org-id-in-chats-view.up.sql" . 829)
+ ("/Users/sauravspurushothaman/test/cpp/test/main.cpp" . 527)
+ ("/Users/sauravspurushothaman/.emacs.d/elpa/doom-themes-20240320.121/"
+  (dired-filename . "/Users/sauravspurushothaman/.emacs.d/elpa/doom-themes-20240320.121/doom-gruvbox-theme.el"))
+ ("/Users/sauravspurushothaman/.emacs.d/elpa/doom-themes-20240320.121/doom-gruvbox-theme.el" . 3865)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/role.clj" . 13508)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/app/route.clj" . 807)
+ ("/Users/sauravspurushothaman/unifize-server/libs/security/src/com/unifize/security/token.clj" . 5178)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/email/utils.clj" . 392)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/file.clj" . 33171)
+ ("/Users/sauravspurushothaman/unifize-server/libs/pdf/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/pdf/src"))
+ ("/Users/sauravspurushothaman/unifize-server/libs/pdf/src/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/pdf/src/com"))
+ ("/Users/sauravspurushothaman/unifize-server/libs/pdf/src/com/unifize/pdf/json.clj" . 129)
+ ("/Users/sauravspurushothaman/unifize-server/libs/pdf/src/com/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/pdf/src/com/unifize"))
+ ("/Users/sauravspurushothaman/unifize-server/libs/pdf/src/com/unifize/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/pdf/src/com/unifize/pdf"))
+ ("/Users/sauravspurushothaman/unifize-server/libs/pdf/src/com/unifize/pdf/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/pdf/src/com/unifize/pdf/json"))
+ ("/Users/sauravspurushothaman/unifize-server/libs/pdf/src/com/unifize/pdf/json/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/pdf/src/com/unifize/pdf/json/adobe.clj"))
+ ("/Users/sauravspurushothaman/unifize-server/libs/pdf/src/com/unifize/pdf/json/adobe.clj" . 2786)
+ ("/Users/sauravspurushothaman/Downloads/checklist_78_20240731103558363.json" . 202784)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/app/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/app/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/resources/migrations/sql/20220602032229-tenant-id-in-integration-user.up.sql" . 349)
+ ("/Users/sauravspurushothaman/test/aswana2.py" . 16818)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/analytics/user.clj" . 22377)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker/error.clj" . 100)
+ ("/Users/sauravspurushothaman/unifize-server/libs/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/cloud"))
+ ("/Users/sauravspurushothaman/unifize-server/libs/cloud/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/cloud/src"))
+ ("/Users/sauravspurushothaman/unifize-server/libs/cloud/src/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com"))
+ ("/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/unifize"))
+ ("/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/unifize/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/unifize/cloud"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/email/protocols.clj" . 3020)
+ ("/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/unifize/cloud/protocols.clj" . 1202)
+ ("/Users/sauravspurushothaman/unifize/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize/.."))
+ ("/Users/sauravspurushothaman/unifize/key.pem" . 159)
+ ("/Users/sauravspurushothaman/unifize-web/.env" . 455)
+ ("/Users/sauravspurushothaman/unifize-server/apps/budgie/profiles.clj.example" . 1090)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/email/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/email/.."))
+ ("/Users/sauravspurushothaman/.emacs.d/workspace/.cache/com.unifize.security.token.clj" . 3681)
+ ("/Users/sauravspurushothaman/.emacs.d/workspace/.cache/"
+  (dired-filename . "/Users/sauravspurushothaman/.emacs.d/workspace/.cache/.."))
+ ("/Users/sauravspurushothaman/.emacs.d/workspace/"
+  (dired-filename . "/Users/sauravspurushothaman/.emacs.d/workspace/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/auth.clj" . 156)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/.clj-kondo/taoensso/encore/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/.clj-kondo/taoensso/encore/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/.clj-kondo/taoensso/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/.clj-kondo/taoensso/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/.clj-kondo/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/.clj-kondo/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/system.clj" . 8644)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/src/com/unifize/pdf/worker/listener.clj" . 526)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf-worker/resources/" . 380)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/analytics.clj" . 445)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/db/chatroom.clj" . 1577)
+ ("/Users/sauravspurushothaman/.m2/repository/seancorfield/next.jdbc/1.1.613/"
+  (dired-filename . "/Users/sauravspurushothaman/.m2/repository/seancorfield/next.jdbc/1.1.613/.."))
+ ("/Users/sauravspurushothaman/.m2/repository/seancorfield/next.jdbc/"
+  (dired-filename . "/Users/sauravspurushothaman/.m2/repository/seancorfield/next.jdbc/.."))
+ ("/Users/sauravspurushothaman/.m2/repository/seancorfield/"
+  (dired-filename . "/Users/sauravspurushothaman/.m2/repository/seancorfield/.."))
+ ("/Users/sauravspurushothaman/.m2/repository/"
+  (dired-filename . "/Users/sauravspurushothaman/.m2/repository/aleph"))
+ ("/Users/sauravspurushothaman/version.org" . 1085)
+ ("/Users/sauravspurushothaman/unifize-server/Dockerfile.api" . 728)
+ ("/Users/sauravspurushothaman/test/joy-of-clojure/"
+  (dired-filename . "/Users/sauravspurushothaman/test/joy-of-clojure/target"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/resources/migrations/sql/20180906231216-create-org-users.edn" . 88)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/resources/migrations/sql/20181128105521-draft-in-workflow-template.up.sql" . 2010)
+ ("/Users/sauravspurushothaman/Downloads/checklist-fields (46).json" . 17461)
+ ("/Users/sauravspurushothaman/Downloads/checklist_221_20240806111456242.json" . 269400)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/project.clj" . 2467)
+ ("/Users/sauravspurushothaman/temp-buff.odt" . 157)
+ ("/Users/sauravspurushothaman/.emacs.d/games/bubbles-default-2-10-10-scores" . 207)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/README.md" . 3162)
+ ("/Users/sauravspurushothaman/Downloads/api (1).txt" . 500846)
+ ("/Users/sauravspurushothaman/.emacs.d/elpa/monokai-theme-20240710.1027/"
+  (dired-filename . "/Users/sauravspurushothaman/.emacs.d/elpa/monokai-theme-20240710.1027/monokai-theme.el"))
+ ("/Users/sauravspurushothaman/.emacs.d/elpa/monokai-theme-20240710.1027/monokai-theme.el" . 14918)
+ ("/Users/sauravspurushothaman/.m2/repository/org/clojure/clojure/1.11.1/clojure-1.11.1.jar" . 160)
+ ("/Users/sauravspurushothaman/.m2/repository/org/clojure/clojure/1.11.1/"
+  (dired-filename . "/Users/sauravspurushothaman/.m2/repository/org/clojure/clojure/1.11.1/clojure-1.11.1.pom"))
+ ("/Users/sauravspurushothaman/chelsea-yellow/"
+  (dired-filename . "/Users/sauravspurushothaman/chelsea-yellow/README.md"))
+ ("/Users/sauravspurushothaman/chelsea-yellow/README.md" . 797)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/logging.clj" . 70)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/test/unifize/service_test.clj" . 637)
+ ("/Users/sauravspurushothaman/unifize-server/libs/security/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/security/project.clj"))
+ ("/Users/sauravspurushothaman/unifize-server/libs/security/project.clj" . 408)
+ ("/Users/sauravspurushothaman/.m2/repository/com/unifize/security/1.0.0/"
+  (dired-filename . "/Users/sauravspurushothaman/.m2/repository/com/unifize/security/1.0.0/.."))
+ ("/Users/sauravspurushothaman/.m2/repository/com/unifize/security/"
+  (dired-filename . "/Users/sauravspurushothaman/.m2/repository/com/unifize/security/.."))
+ ("/Users/sauravspurushothaman/.m2/repository/com/unifize/"
+  (dired-filename . "/Users/sauravspurushothaman/.m2/repository/com/unifize/.."))
+ ("/Users/sauravspurushothaman/.m2/repository/com/"
+  (dired-filename . "/Users/sauravspurushothaman/.m2/repository/com/.."))
+ ("/Users/sauravspurushothaman/unifize-server/libs/pdf/src/com/unifize/pdf/json/pdfgen.clj" . 1529)
+ ("/Users/sauravspurushothaman/unifize-server/apps/pdf/profiles.clj" . 1077)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/email/provider/postmark.clj" . 1116)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/email/provider/sendgrid.clj" . 1041)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/email/provider/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/email/provider/.."))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/email/core.clj" . 24)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/email/components.clj" . 16017)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/email/collaborator.clj" . 261)
+ ("/Users/sauravspurushothaman/.emacs.d/elpa/naysayer-theme-20240220.2159/"
+  (dired-filename . "/Users/sauravspurushothaman/.emacs.d/elpa/naysayer-theme-20240220.2159/naysayer-theme.el"))
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/pom.xml" . 16898)
+ ("/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/unifize/cloud/storage.clj" . 385)
+ ("/Users/sauravspurushothaman/test/cpp/test/"
+  (dired-filename . "/Users/sauravspurushothaman/test/cpp/test/.."))
+ ("/Users/sauravspurushothaman/test/cpp/"
+  (dired-filename . "/Users/sauravspurushothaman/test/cpp/bubble_sort.c"))
+ ("/Users/sauravspurushothaman/test/cpp/bubble_sort.c" . 626)
+ ("/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/analytics/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/apps/api/src/unifize/analytics/user.clj"))
+ ("/Users/sauravspurushothaman/Downloads/checklist_78_20240716120311093.json" . 188483)
+ ("/Users/sauravspurushothaman/.emacs.d/elpa/naysayer-theme-20240220.2159/naysayer-theme.el" . 3373)
+ ("/Users/sauravspurushothaman/unifize-server/apps/kea/output.pdf" . 31911)
+ ("/Users/sauravspurushothaman/test/threads.c" . 81)
+ ("/Users/sauravspurushothaman/unifize-server/libs/cloud/src/com/unifize/cloud/common.clj" . 469)
+ ("/Users/sauravspurushothaman/Downloads/checklist_5_20240709100654349.json" . 692)
+ ("/Users/sauravspurushothaman/Downloads/checklist_78_20240731094251624.json" . 52517)
+ ("/Users/sauravspurushothaman/unifize-server/libs/security/src/com/unifize/security/interceptors.clj" . 1079)
+ ("/Users/sauravspurushothaman/unifize-server/libs/security/src/com/unifize/security/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/security/src/com/unifize/security/.."))
+ ("/Users/sauravspurushothaman/unifize-server/libs/security/src/com/unifize/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/security/src/com/unifize/.."))
+ ("/Users/sauravspurushothaman/unifize-server/libs/security/src/com/"
+  (dired-filename . "/Users/sauravspurushothaman/unifize-server/libs/security/src/com/.."))
+ ("/Users/sauravspurushothaman/unifize-server/libs/security/src/" . 260))
