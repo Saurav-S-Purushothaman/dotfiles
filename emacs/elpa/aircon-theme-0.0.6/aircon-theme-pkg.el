@@ -1,2 +1,0 @@
-;; Generated package description from aircon-theme.el  -*- no-byte-compile: t -*-
-(define-package "aircon-theme" "0.0.6" "Cool and legible light theme" '((emacs "24.4")) :commit "0cecd81e7f6631c91ed0437d801517677e018c1d" :authors '(("Gregory Chamberlain" . "greg@cosine.blue")) :maintainer '("Gregory Chamberlain" . "~chambln/public-inbox@lists.sr.ht") :keywords '("faces") :url "https://git.sr.ht/~chambln/aircon-theme.el")
