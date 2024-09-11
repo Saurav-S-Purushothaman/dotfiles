@@ -98,7 +98,7 @@
 
 (setq-default fill-column 72)
 (setq-default auto-fill-mode t)
-(setq-default menu-bar--display-line-number-mode-none)
+(setq-default menu-bar--display-line-number-mode-relative)
 
 ;; Copy line down
 (defun duplicate-line-down ()
