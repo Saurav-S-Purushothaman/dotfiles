@@ -89,7 +89,7 @@
 (set-frame-font "Input Mono-12")
 (set-frame-font "Hack-14")
 (set-frame-font "MonaspiceXe Nerd Font Mono")
-(set-frame-font "DejaVu Sans Mono")
+(set-frame-font "DejaVu Sans Mono-12")
 (set-frame-font "NanumGothicCoding-16")
 
 (setq sp-highlight-pair-overlay nil)
@@ -111,6 +111,12 @@
   (yank))
 
 (global-set-key (kbd "C-S-d") 'duplicate-line-down)
+
+;; Change fill column indicator color
+;; Color of global fill column indicator line
+(custom-set-faces
+ '(fill-column-indicator
+   ((t (:foreground "gray30")))))
 
 
 (defun xah-toggle-line-spacing ()
