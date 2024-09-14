@@ -146,6 +146,9 @@ Version 2017-06-02"
 (blink-cursor-mode 1)
 (menu-bar--display-line-numbers-mode-none)
 
+;; Smooth scrolling
+(setq smooth-scrolling-mode 1)
+
 ;; set width to 80 column length if multiple window is open
 (defun set-window-width (n)
   "Set the selected window's width."
