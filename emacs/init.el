@@ -59,6 +59,8 @@
 (setq search-wrap-around t)
 (setq load-prefer-newer t)
 
+;; Org mode auto header
+(setq org-autolist-mode t)
 
 
 ;; font
