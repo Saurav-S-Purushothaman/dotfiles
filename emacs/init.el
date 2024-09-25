@@ -82,33 +82,35 @@
 ;; (set-frame-font "Anonymous Pro-14")
 ;; (set-frame-font "Input-16")
 ;; (set-frame-font "Inconsolata-16")
-;; (set-frame-font "Iosevka-14")
+;; (set-frame-font "Iosevka-15")
+;; (set-frame-font "Iosevka-16")
 ;; (set-frame-font "Iosevka Fixed Slab")
-;; (set-frame-font "Iosevka Fixed ss06-16")
+;; (set-frame-font "Iosevka Fixed ss06-15")
+;; (set-frame-font "Iosevka Fixed ss18-16")
 ;; (set-frame-font "Monaco")
 ;; (set-frame-font "Monospace-17")
-;; (set-frame-font "Menlo-16")
+;; (set-frame-font "Menlo-12")
 ;; (set-frame-font "Andale Mono")
 ;; (set-frame-font "Comic Code-14")
 ;; (set-frame-font "Courier New-14")
 ;; (set-frame-font "Consolas-16")
 ;; (set-frame-font "Roboto Mono-16")
-;; (set-frame-font "Ubuntu Mono-20")
+;; (set-frame-font "Ubuntu Mono-14")
 ;; ;; (set-frame-font "Ubuntu Sans Mono")
 ;; (set-frame-font "Source Code Pro")
 ;; (set-frame-font "Space Mono-16")
-;; (set-frame-font "Liberation Mono-14")
+;; (set-frame-font "Liberation Mono-12")
 ;; (set-frame-font "Monospace-14")
 ;; (set-frame-font "Input Mono-12")
-;; (set-frame-font "Hack-14")
+;; (set-frame-font "Hack")
 ;; (set-frame-font "MonaspiceXe Nerd Font Mono")
 ;; (set-frame-font "DejaVu Sans Mono-12")
 ;; (set-frame-font "NanumGothicCoding-16")
 
+
 (setq sp-highlight-pair-overlay nil)
 (setq-default global-hl-line-mode 0)
-(setq-default line-spacing 3)
-
+(setq-default line-spacing 1)
 (setq-default fill-column 72)
 (setq-default auto-fill-mode t)
 (setq-default menu-bar--display-line-number-mode-relative)
@@ -127,14 +129,24 @@
 
 ;; Change fill column indicator color
 ;; Color of global fill column indicator line
-(custom-set-faces
- '(fill-column-indicator
-   ((t (:foreground "gray30")))))
 
-;; Change the color of the fill column indicator to normal mode
-(custom-set-faces
- '(fill-column-indicator
-   ((t))))
+(defun fill-column-color-default ()
+  (custom-set-faces
+   '(fill-column-indicator
+     (()))))
+
+
+(defun fill-column-color-dark ()
+  (custom-set-faces
+   '(fill-column-indicator
+     ((t (:foreground "grey20"))))))
+
+
+(defun fill-column-color-light()
+  (custom-set-faces
+   '(fill-column-indicator
+     ((t (:foreground "grey80"))))))
+
 
 (defun xah-toggle-line-spacing ()
   "Toggle line spacing between no extra space to extra half line height.
