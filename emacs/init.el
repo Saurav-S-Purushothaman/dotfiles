@@ -129,24 +129,23 @@
 
 ;; Change fill column indicator color
 ;; Color of global fill column indicator line
-
 (defun fill-column-color-default ()
+  (interactive)
   (custom-set-faces
    '(fill-column-indicator
      (()))))
 
-
 (defun fill-column-color-dark ()
+  (interactive)
   (custom-set-faces
    '(fill-column-indicator
      ((t (:foreground "grey20"))))))
 
-
 (defun fill-column-color-light()
+  (interactive)
   (custom-set-faces
    '(fill-column-indicator
      ((t (:foreground "grey80"))))))
-
 
 (defun xah-toggle-line-spacing ()
   "Toggle line spacing between no extra space to extra half line height.
