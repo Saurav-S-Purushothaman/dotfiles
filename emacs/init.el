@@ -89,11 +89,11 @@
 ;; (set-frame-font "Anonymous Pro-14")
 ;; (set-frame-font "Input-16")
 ;; (set-frame-font "Inconsolata-16")
+;; (set-frame-font "Iosevka-13")
 ;; (set-frame-font "Iosevka-15")
-;; (set-frame-font "Iosevka-16")
 ;; (set-frame-font "Iosevka Fixed Slab")
-;; (set-frame-font "Iosevka Fixed ss06-15")
-;; (set-frame-font "Iosevka Fixed ss18-16")
+;; (set-frame-font "Iosevka Fixed ss06-13")
+;; (set-frame-font "Iosevka Fixed ss18-15")
 ;; (set-frame-font "Monaco")
 ;; (set-frame-font "Monospace-17")
 ;; (set-frame-font "Menlo-12")
@@ -134,6 +134,9 @@
 
 (global-set-key (kbd "C-S-d") 'duplicate-line-down)
 
+;; Note: Ctrl + Shift + up or down to copy line down of up
+;; Move text line down
+
 ;; Change fill column indicator color
 ;; Color of global fill column indicator line
 (defun fill-column-color-default ()
@@ -146,7 +149,7 @@
   (interactive)
   (custom-set-faces
    '(fill-column-indicator
-     ((t (:foreground "grey20"))))))
+     ((t (:foreground "grey30"))))))
 
 (defun fill-column-color-light()
   (interactive)
