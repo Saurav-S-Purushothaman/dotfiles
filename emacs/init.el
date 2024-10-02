@@ -88,9 +88,9 @@
 ;; (set-frame-font "JetBrains Mono-14")
 ;; (set-frame-font "Anonymous Pro-14")
 ;; (set-frame-font "Input-16")
-;; (set-frame-font "Inconsolata-16")
+;; (set-frame-font "Inconsolata-18")
 ;; (set-frame-font "Iosevka-13")
-;; (set-frame-font "Iosevka-15")
+;; (set-frame-font "Iosevka-17")
 ;; (set-frame-font "Iosevka Fixed Slab")
 ;; (set-frame-font "Iosevka Fixed ss06-13")
 ;; (set-frame-font "Iosevka Fixed ss18-15")
@@ -114,9 +114,11 @@
 ;; (set-frame-font "DejaVu Sans Mono-12")
 ;; (set-frame-font "NanumGothicCoding-16")
 
+;; (set-frame-font "Inconsolata")
+(set-frame-font "Fira Code-16")
 
 (setq sp-highlight-pair-overlay nil)
-(setq-default global-hl-line-mode 0)
+(setq global-hl-line-mode 0)
 (setq-default line-spacing 1)
 (setq-default fill-column 72)
 (setq-default auto-fill-mode t)
@@ -184,7 +186,7 @@ Version 2017-06-02"
 (blink-cursor-mode 1)
 (menu-bar--display-line-numbers-mode-none)
 
-;; Smooth scrolling
+;; Smooth scrolliqng
 (setq smooth-scrolling-mode 1)
 
 ;; set width to 80 column length if multiple window is open
