@@ -139,6 +139,18 @@
 ;; Note: Ctrl + Shift + up or down to copy line down of up
 ;; Move text line down
 
+
+;; Opening a new line from the current line, below
+;; Just like how it's done for vim
+
+(defun open-line-below ()
+  "Open a new line below the current line and enter insert mode."
+  (interactive)
+  (end-of-line)  ; Move to the end of the line
+  (newline-and-indent))  ; Create a new line and indent
+
+(global-set-key (kbd "C-o") 'open-line-below)
+
 ;; Change fill column indicator color
 ;; Color of global fill column indicator line
 (defun fill-column-color-default ()
