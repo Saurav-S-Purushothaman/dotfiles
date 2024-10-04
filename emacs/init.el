@@ -140,9 +140,8 @@
 ;; Move text line down
 
 
-;; Opening a new line from the current line, below
-;; Just like how it's done for vim
-
+;; Creating a new line from the current line below the current line just
+;; like how vim does it for "o"
 (defun open-line-below ()
   "Open a new line below the current line and enter insert mode."
   (interactive)
@@ -150,6 +149,17 @@
   (newline-and-indent))  ; Create a new line and indent
 
 (global-set-key (kbd "C-o") 'open-line-below)
+
+;; Creating a new line from the current line above the current line
+;; Just like how vim does it for O
+(defun open-line-above ()
+  "Open a new line above the current line and enter insert mode."
+  (interactive)
+  (previous-line)
+  (end-of-line)
+  (newline-and-indent))
+
+(global-set-key (kbd "C-S-o") 'open-line-above)
 
 ;; Change fill column indicator color
 ;; Color of global fill column indicator line
