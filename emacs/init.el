@@ -139,6 +139,9 @@
 ;; Note: Ctrl + Shift + up or down to copy line down of up
 ;; Move text line down
 
+;; Enable global whitespace mode
+(setq global-whitespace-mode 1)
+
 
 ;; Creating a new line from the current line below the current line just
 ;; like how vim does it for "o"
