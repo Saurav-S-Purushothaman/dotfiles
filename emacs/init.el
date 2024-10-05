@@ -89,7 +89,7 @@
 (set-frame-font "Fira Code-16")
 
 (setq sp-highlight-pair-overlay nil)
-(setq global-hl-line-mode 0)
+(setq global-hl-line-mode -1)
 (setq-default line-spacing 1)
 (setq-default fill-column 72)
 (setq-default auto-fill-mode t)
