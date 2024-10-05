@@ -1,0 +1,26 @@
+{
+    "Name": "Gruber Darker",
+    "Color Presets": {
+        "Foreground Color": "#e4e4ef",
+        "Background Color": "#181818",
+        "Bold Color": "#ffffff",
+        "Selection Color": "#484848",
+        "Cursor Color": "#ffdd33",
+        "ANSI 0 Color": "#000000",
+        "ANSI 1 Color": "#f43841",
+        "ANSI 2 Color": "#73c936",
+        "ANSI 3 Color": "#ffdd33",
+        "ANSI 4 Color": "#96a6c8",
+        "ANSI 5 Color": "#9e95c7",
+        "ANSI 6 Color": "#95a99f",
+        "ANSI 7 Color": "#f5f5f5",
+        "ANSI 8 Color": "#453d41",
+        "ANSI 9 Color": "#ff4f58",
+        "ANSI 10 Color": "#73c936",
+        "ANSI 11 Color": "#cc8c3c",
+        "ANSI 12 Color": "#565f73",
+        "ANSI 13 Color": "#9e95c7",
+        "ANSI 14 Color": "#96a6c8",
+        "ANSI 15 Color": "#f4f4ff"
+    }
+}
