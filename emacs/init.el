@@ -151,7 +151,7 @@
   (end-of-line)  ; Move to the end of the line
   (newline-and-indent))  ; Create a new line and indent
 
-(global-set-key (kbd "C-o") 'open-line-below)
+(global-set-key (kbd "C-j") 'open-line-below)
 
 ;; Creating a new line from the current line above the current line
 ;; Just like how vim does it for O
@@ -162,7 +162,7 @@
   (end-of-line)
   (newline-and-indent))
 
-(global-set-key (kbd "C-S-o") 'open-line-above)
+(global-set-key (kbd "C-S-j") 'open-line-above)
 
 ;; Change fill column indicator color
 ;; Color of global fill column indicator line
