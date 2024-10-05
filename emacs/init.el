@@ -225,8 +225,8 @@ Version 2017-06-02"
 (global-set-key (kbd "C-x ~") 'set-80-columns)
 ;; Width set to 80
 
-(set-fill-column 72)
-(auto-fill-mode t)
+(setq set-fill-column 72)
+(setq auto-fill-mode t)
 
 
 ;; (visual-line-mode) -> Uncomment this to set fill column level at 80
