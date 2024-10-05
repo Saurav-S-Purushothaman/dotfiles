@@ -164,6 +164,9 @@
 
 (global-set-key (kbd "C-S-j") 'open-line-above)
 
+;; Comment a line
+(global-set-key (kbd "C-;") 'comment-line)
+
 ;; Change fill column indicator color
 ;; Color of global fill column indicator line
 (defun fill-column-color-default ()
