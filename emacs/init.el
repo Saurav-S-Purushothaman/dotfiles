@@ -104,6 +104,11 @@
 ;; font
 (set-frame-font "Iosevka Fixed ss06-18")
 
+;; Disable MacOs's native fullscreen behavior
+(setq ns-use-native-fullscreen nil)
+(setq frame-resize-pixelwise t)
+
+
 (setq sp-highlight-pair-overlay nil)
 (setq global-hl-line-mode -1)
 (setq-default line-spacing 1)
