@@ -93,6 +93,7 @@
       read-process-output-max (* 1024 1024)
       treemacs-space-between-root-nodes nil
       company-minimum-prefix-length 1
+      lsp-semantic-tokens-mode 1
       ;; lsp-enable-indentation nil ; uncomment to use cider indentation instead of lsp
       ;; Use cider auto complete
       lsp-enable-completion-at-point nil)
