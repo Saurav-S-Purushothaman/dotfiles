@@ -228,6 +228,9 @@ Version 2017-06-02"
 (setq set-fill-column 72)
 (setq auto-fill-mode t)
 
+;; Remove scroll bars
+(setq scroll-bar-mode 0)
+
 
 ;; (visual-line-mode) -> Uncomment this to set fill column level at 80
 
