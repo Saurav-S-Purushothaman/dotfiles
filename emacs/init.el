@@ -103,10 +103,6 @@
 ;; font
 (set-frame-font "Iosevka Fixed ss06-18")
 
-
-;; (set-frame-font "Inconsolata")
-(set-frame-font "Fira Code-16")
-
 (setq sp-highlight-pair-overlay nil)
 (setq global-hl-line-mode -1)
 (setq-default line-spacing 1)
