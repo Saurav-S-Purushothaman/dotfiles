@@ -119,6 +119,8 @@
 (setq-default fill-column 72)
 (setq-default auto-fill-mode t)
 (setq-default menu-bar--display-line-number-mode-relative)
+(blink-cursor-mode 1)
+
 
 ;; Copy line down
 (defun duplicate-line-down ()
