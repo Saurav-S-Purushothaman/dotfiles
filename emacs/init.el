@@ -253,8 +253,6 @@ Version 2017-06-02"
 (setq scroll-bar-mode 0)
 
 
-;; (visual-line-mode) -> Uncomment this to set fill column level at 80
-
 ;; Use adaptive wrap to wrap code comment at 72 character
 (adaptive-wrap-prefix-mode t)
 (use-package adaptive-wrap
