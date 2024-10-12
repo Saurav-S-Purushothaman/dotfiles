@@ -102,7 +102,10 @@
 
 
 ;; font
-(set-frame-font "Iosevka Fixed ss06-18")
+(set-frame-font "Iosevka Fixed-18")
+
+;; Remove scroll bar
+(scroll-bar-mode 0)
 
 ;; Disable MacOs's native fullscreen behavior
 (setq ns-use-native-fullscreen nil)
