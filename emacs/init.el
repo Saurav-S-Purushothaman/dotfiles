@@ -107,6 +107,7 @@
 ;; Remove scroll bar
 (scroll-bar-mode 0)
 
+
 ;; Disable MacOs's native fullscreen behavior
 (setq ns-use-native-fullscreen nil)
 (setq frame-resize-pixelwise t)
@@ -196,11 +197,12 @@ Version 2017-06-02"
 
 ;; Multiple Cursor
 (require 'multiple-cursors)
-(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
 (global-set-key (kbd "C->")         'mc/mark-next-like-this)
 (global-set-key (kbd "C-<")         'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<")     'mc/mark-all-like-this)
-(global-set-key (kbd "M-<mouse-1>") 'mc/add-cursor-on-click)
+(global-set-key (kbd "C-S-.")       'mc/skip-to-next-like-this)
+(global-set-key (kbd "C-S-,")       'mc/skip-to-previous-like-this)
+
 
 ;; display fill indicator
 (global-display-fill-column-indicator-mode t)
