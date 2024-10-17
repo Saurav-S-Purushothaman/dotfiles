@@ -75,8 +75,8 @@
 
 (add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
 
-(require 'rainbow-delimiters)
-(add-hook 'clojure-mode-hook #'rainbow-delimiters-mode)
+;; (require 'rainbow-delimiters)
+;; (add-hook 'clojure-mode-hook #'rainbow-delimiters-mode)
 
 ;; Clojure lsp
 (setq package-selected-packages '(clojure-mode lsp-mode cider lsp-treemacs flycheck company))
