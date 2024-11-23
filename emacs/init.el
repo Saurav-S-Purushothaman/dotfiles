@@ -98,6 +98,36 @@
       ;; Use cider auto complete
       lsp-enable-completion-at-point nil)
 
+;; Global lsp semantic token mode
+(defvar global-lsp-semantic-token-mode nil
+  "Global status of LSP semantic token mode.")
+
+(defun global-toggle-lsp-semantic-token-mode ()
+  "Toggle lsp-semantic-token-mode for all buffers with LSP mode enabled.
+Also ensures it's enabled automatically for new buffers with LSP mode."
+  (interactive)
+  (setq global-lsp-semantic-token-mode (not global-lsp-semantic-token-mode))
+
+  ;; Function to enable/disable semantic tokens in a buffer
+  (defun apply-semantic-token-mode ()
+    (when (bound-and-true-p lsp-mode)
+      (if global-lsp-semantic-token-mode
+          (lsp-semantic-tokens-mode 1)
+        (lsp-semantic-tokens-mode -1))))
+
+  ;; Apply to all existing buffers
+  (dolist (buf (buffer-list))
+    (with-current-buffer buf
+      (apply-semantic-token-mode)))
+
+  ;; Add hook for future buffers
+  (if global-lsp-semantic-token-mode
+      (add-hook 'lsp-mode-hook #'lsp-semantic-tokens-mode)
+    (remove-hook 'lsp-mode-hook #'lsp-semantic-tokens-mode))
+
+  (message "Global LSP semantic token mode %s"
+           (if global-lsp-semantic-token-mode "enabled" "disabled")))
+
 ;; Clojure ends here ;;
 
 
