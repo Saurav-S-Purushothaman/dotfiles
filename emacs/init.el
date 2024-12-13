@@ -130,7 +130,8 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
 
 ;; Clojure ends here ;;
 
-
+(setq enable-recursive-minibuffers t)
+(setq blink-cursor-blinks 0)
 ;; font
 (set-frame-font "Iosevka Fixed-18")
 
