@@ -130,6 +130,15 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
 
 ;; Clojure ends here ;;
 
+;; timu theme org mode features
+(customize-set-variable 'timu-caribbean-scale-org-document-title 1.8)
+(customize-set-variable 'timu-caribbean-scale-org-document-info 1.4)
+(customize-set-variable 'timu-caribbean-scale-org-level-1 1.8)
+(customize-set-variable 'timu-caribbean-scale-org-level-2 1.4)
+(customize-set-variable 'timu-caribbean-scale-org-level-3 1.2)
+
+(customize-set-variable 'timu-caribbean-org-intense-colors t)
+
 (setq enable-recursive-minibuffers t)
 (setq blink-cursor-blinks 0)
 ;; font
