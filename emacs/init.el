@@ -139,6 +139,10 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
 
 (customize-set-variable 'timu-caribbean-org-intense-colors t)
 
+(set-face-attribute 'default nil :family "Iosevka" :height 150)
+(set-face-attribute 'fixed-pitch nil :family "Iosevka" :height 150)
+(set-face-attribute 'variable-pitch nil :family "IBM Plex Serif")
+
 (setq enable-recursive-minibuffers t)
 (setq blink-cursor-blinks 0)
 ;; font
