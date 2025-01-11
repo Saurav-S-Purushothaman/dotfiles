@@ -143,7 +143,7 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
 (set-face-attribute 'default nil
                     :family "Inconsolata"
                     :width 'condensed
-                    :height 160)
+                    :height 180)
 
 (setq enable-recursive-minibuffers t)
 (setq blink-cursor-blinks 0)
