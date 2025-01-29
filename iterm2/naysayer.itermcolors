@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+    <key>Background Color</key>
+    <string>#062329</string>
+    <key>Bold Color</key>
+    <string>#ffffff</string>
+    <key>Cursor Color</key>
+    <string>#ffffff</string>
+    <key>Cursor Text Color</key>
+    <string>#062329</string>
+    <key>Foreground Color</key>
+    <string>#d1b897</string>
+    <key>Selected Text Color</key>
+    <string>#ffffff</string>
+    <key>Selection Color</key>
+    <string>#0000ff</string>
+
+    <!-- ANSI Colors -->
+    <key>ANSI 0 Color</key> <string>#062329</string> <!-- Black -->
+    <key>ANSI 1 Color</key> <string>#F92672</string> <!-- Red -->
+    <key>ANSI 2 Color</key> <string>#A6E22E</string> <!-- Green -->
+    <key>ANSI 3 Color</key> <string>#E6DB74</string> <!-- Yellow -->
+    <key>ANSI 4 Color</key> <string>#66D9EF</string> <!-- Blue -->
+    <key>ANSI 5 Color</key> <string>#FD5FF0</string> <!-- Magenta -->
+    <key>ANSI 6 Color</key> <string>#A1EFE4</string> <!-- Cyan -->
+    <key>ANSI 7 Color</key> <string>#d1b897</string> <!-- White -->
+
+    <key>ANSI 8 Color</key> <string>#126367</string> <!-- Bright Black -->
+    <key>ANSI 9 Color</key> <string>#F92672</string> <!-- Bright Red -->
+    <key>ANSI 10 Color</key> <string>#A6E22E</string> <!-- Bright Green -->
+    <key>ANSI 11 Color</key> <string>#E6DB74</string> <!-- Bright Yellow -->
+    <key>ANSI 12 Color</key> <string>#66D9EF</string> <!-- Bright Blue -->
+    <key>ANSI 13 Color</key> <string>#FD5FF0</string> <!-- Bright Magenta -->
+    <key>ANSI 14 Color</key> <string>#A1EFE4</string> <!-- Bright Cyan -->
+    <key>ANSI 15 Color</key> <string>#ffffff</string> <!-- Bright White -->
+
+    <!-- Additional Settings -->
+    <key>Normal Font</key> <string>Monaco</string>
+    <key>Normal Font Size</key> <real>12</real>
+    <key>Non-Ascii Font</key> <string>Monaco</string>
+    <key>Non-Ascii Font Size</key> <real>12</real>
+
+    <key>Use Bold Fonts</key> <true/>
+    <key>Allow Bold Fonts</key> <true/>
+    <key>Preserve Mentions</key> <true/>
+</dict>
+</plist>
+
