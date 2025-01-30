@@ -139,6 +139,11 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
 
 (customize-set-variable 'timu-caribbean-org-intense-colors t)
 
+;; Enable catppuccin-theme
+(use-package catppuccin-theme
+  :init (setq catppuccin-flavor 'mocha)
+  :config (load-theme 'catppuccin))
+
 ;; for condensed font. Supported by Inconsolata
 (set-face-attribute 'default nil
                     :family "Inconsolata"
