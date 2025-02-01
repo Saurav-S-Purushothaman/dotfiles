@@ -75,8 +75,8 @@
 
 (add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
 
-;; (require 'rainbow-delimiters)
-;; (add-hook 'clojure-mode-hook #'rainbow-delimiters-mode)
+(require 'rainbow-delimiters)
+(add-hook 'clojure-mode-hook #'rainbow-delimiters-mode)
 
 ;; Clojure lsp
 (setq package-selected-packages '(clojure-mode lsp-mode cider lsp-treemacs flycheck company))
@@ -153,7 +153,8 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
 (setq enable-recursive-minibuffers t)
 (setq blink-cursor-blinks 0)
 ;; font
-(set-frame-font "Iosevka Fixed-18")
+;; (set-frame-font "Iosevka Fixed-14")
+(set-face-attribute 'default nil :family "Iosevka" :height 140)
 
 ;; Remove scroll bar
 (scroll-bar-mode 0)
