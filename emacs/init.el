@@ -153,8 +153,8 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
 (setq enable-recursive-minibuffers t)
 (setq blink-cursor-blinks 0)
 ;; font
-;; (set-frame-font "Iosevka Fixed-14")
-(set-face-attribute 'default nil :family "Iosevka" :height 140)
+;; (set-frame-font "Iosevka Fixed-16")
+(set-face-attribute 'default nil :family "Iosevka" :height 160)
 
 ;; Remove scroll bar
 (scroll-bar-mode 0)
@@ -332,6 +332,13 @@ Version 2017-06-02"
   (setq pyvenv-post-deactivate-hooks
         (list (lambda ()
                 (setq python-shell-interpreter "python3")))))
+
+
+(use-package python-black
+  :demand t
+  :after python
+  :hook (python-mode . python-black-on-save-mode-enable-dwim))
+
 
 ;; Installing straight.el
 (defvar bootstrap-version)
