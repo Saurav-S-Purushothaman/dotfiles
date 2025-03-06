@@ -171,7 +171,18 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
 (setq-default fill-column 72)
 (setq-default auto-fill-mode t)
 (setq-default menu-bar--display-line-number-mode-relative)
+
+
 (blink-cursor-mode 1)
+
+;; Toggle transparency
+(defun kb/toggle-window-transparency ()
+  "Toggle transparency."
+  (interactive)
+  (let ((alpha-transparency 75))
+    (pcase (frame-parameter nil 'alpha-background)
+      (alpha-transparency (set-frame-parameter nil 'alpha-background 100))
+      (t (set-frame-parameter nil 'alpha-background alpha-transparency)))))
 
 
 ;; Copy line down
