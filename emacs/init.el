@@ -483,4 +483,47 @@ by Prelude.")
  ;; greet the use with some useful tip
  (run-at-time 5 nil 'prelude-tip-of-the-day))
 
+;; tsoding config. I like to steal configs from other peoples. Hehe
+(defun rc/duplicate-line ()
+  "Duplicate current line"
+  (interactive)
+  (let ((column (- (point) (point-at-bol)))
+        (line (let ((s (thing-at-point 'line t)))
+                (if s (string-remove-suffix "\n" s) ""))))
+    (move-end-of-line 1)
+    (newline)
+    (insert line)
+    (move-beginning-of-line 1)
+    (forward-char column)))
+
+(global-set-key (kbd "C-,") 'rc/duplicate-line)
+
+(defun rc/rgrep-selected (beg end)
+  (interactive (if (use-region-p)
+                 (list (region-beginning) (region-end))
+               (list (point-min) (point-min))))
+  (rgrep (buffer-substring-no-properties beg end) "*" (pwd)))
+
+(global-set-key (kbd "C-x c s") 'rc/rgrep-selected)
+
+(defun rc/colorize-compilation-buffer ()
+  (read-only-mode 'toggle)
+  (ansi-color-apply-on-region compilation-filter-start (point))
+  (read-only-mode 'toggle))
+(add-hook 'compilation-filter-hook 'rc/colorize-compilation-buffer)
+
+;; toggle transparency
+(defconst rc/frame-transparency 75)
+
+(defun rc/toggle-transparency ()
+  (interactive)
+  (let ((frame-alpha (frame-parameter nil 'alpha)))
+    (if (or (not frame-alpha)
+            (= (cadr frame-alpha) 100))
+        (set-frame-parameter nil 'alpha
+                             `(,rc/frame-transparency
+                               ,rc/frame-transparency))
+      (set-frame-parameter nil 'alpha '(100 100)))))
+
+
 ;;; init.el ends here
