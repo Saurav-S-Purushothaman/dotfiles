@@ -128,6 +128,11 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
   (message "Global LSP semantic token mode %s"
            (if global-lsp-semantic-token-mode "enabled" "disabled")))
 
+
+
+;; Custom theme load path
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+
 ;; Clojure ends here ;;
 
 ;; timu theme org mode features
