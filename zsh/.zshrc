@@ -1,4 +1,8 @@
-defaults write org.gnu.Emacs AppleFontSmoothing -int 0
+# to enable smooth font in emacs.
+defaults write org.gnu.Emacs AppleFontSmoothing -int 1
+
+# uncomment below to remove smooth rendering of emacs
+# defaults write org.gnu.Emacs AppleFontSmoothing -int 1
 
 # "Set a blazingly fast keyboard repeat rate, "
 
