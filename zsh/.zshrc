@@ -5,10 +5,12 @@ defaults write org.gnu.Emacs AppleFontSmoothing -int 1
 # defaults write org.gnu.Emacs AppleFontSmoothing -int 1
 
 # "Set a blazingly fast keyboard repeat rate, "
-
 defaults write NSGlobalDomain KeyRepeat -int 1
-# "Set a shorter Delay until key repeat"
 
+# Not so blazingly fast keyboard repeat rate
+defaults write NSGlobalDomain KeyRepeat -int 2
+
+# "Set a shorter Delay until key repeat"
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
