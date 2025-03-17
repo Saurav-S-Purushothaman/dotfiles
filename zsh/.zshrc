@@ -18,4 +18,4 @@ source $(brew --prefix nvm)/nvm.sh
 export GOOGLE_CLOUD_PROJECT=unifize-saurav
 export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 export JAVA_HOME=$(/usr/libexec/java_home -v 17.0.10)
-autoload -Uz compinit && compinit
+# autoload -Uz compinit && compinit
