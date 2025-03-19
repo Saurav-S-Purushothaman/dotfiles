@@ -133,6 +133,10 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
 ;; Custom theme load path
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 
+;; Set fill column length
+(set-fill-column 72)
+(setq-default fill-column 72)
+
 ;; Clojure ends here ;;
 
 ;; timu theme org mode features
