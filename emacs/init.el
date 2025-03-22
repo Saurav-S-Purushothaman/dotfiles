@@ -535,4 +535,9 @@ by Prelude.")
       (set-frame-parameter nil 'alpha '(100 100)))))
 
 
-;;; init.el ends here
+;; flycheck mode for rust
+(with-eval-after-load 'rust-mode
+  (add-hook 'flycheck-mode-hook #'flycheck-rust-setup))
+
+
+;; init.el ends here
