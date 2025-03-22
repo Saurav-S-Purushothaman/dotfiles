@@ -540,4 +540,7 @@ by Prelude.")
   (add-hook 'flycheck-mode-hook #'flycheck-rust-setup))
 
 
+(with-eval-after-load 'flycheck
+  (add-hook 'flycheck-mode-hook #'flycheck-inline-mode))
+
 ;; init.el ends here
