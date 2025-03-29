@@ -12,20 +12,6 @@ defaults write NSGlobalDomain KeyRepeat -int 2
 
 # "Set a shorter Delay until key repeat"
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
-
-# key binding to remap return to control when pressed with other keys
-
-
-# sudo apt install xmodmapping
-# sudo apt install xcape
-
-# run the above to make the below work.
-
-xmodmap -e 'keycode 36 = 0x1234'
-xmodmap -e 'add Control = 0x1234'
-xmodmap -e 'keycode any
-
-
 alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 source $(brew --prefix nvm)/nvm.sh
 export GOOGLE_CLOUD_PROJECT=unifize-saurav
