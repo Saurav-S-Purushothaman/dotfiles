@@ -515,6 +515,12 @@ by Prelude.")
 
 (global-set-key (kbd "C-x c s") 'rc/rgrep-selected)
 
+;; Set box cursor
+(setq-default cursor-type 'box)
+
+;; set line cursor
+(setq-default cursor-type 'bar)
+
 ;; (defun rc/colorize-compilation-buffer ()
 ;;   (read-only-mode 'toggle)
 ;;   (ansi-color-apply-on-region compilation-filter-start (point))
