@@ -549,4 +549,19 @@ by Prelude.")
 (with-eval-after-load 'flycheck
   (add-hook 'flycheck-mode-hook #'flycheck-inline-mode))
 
+(setq user-full-name "Saurav")
+(setq user-mail-address "saurav.kudajadri@gmail.com")
+
+(setq send-mail-function 'smtpmail-send-it
+      message-send-mail-function 'smtpmail-send-it)
+
+
+(setq smtpmail-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-service 587
+      smtpmail-stream-type 'starttls
+      smtpmail-debug-info t
+      smtpmail-debug-verb t
+      smtpmail-smtp-user "saurav.kudajadri@gmail.com")
+
+
 ;; init.el ends here
