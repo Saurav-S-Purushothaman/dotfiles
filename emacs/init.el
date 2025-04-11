@@ -156,8 +156,8 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
 ;; for condensed font. Supported by Inconsolata
 (set-face-attribute 'default nil
                     :family "Inconsolata"
-                    :width 'condensed
-                    :height 180)
+                    :width 'normal
+                    :height 160)
 
 (setq enable-recursive-minibuffers t)
 (setq blink-cursor-blinks 0)
@@ -541,6 +541,7 @@ by Prelude.")
       (set-frame-parameter nil 'alpha '(100 100)))))
 
 
+
 ;; flycheck mode for rust
 (with-eval-after-load 'rust-mode
   (add-hook 'flycheck-mode-hook #'flycheck-rust-setup))
@@ -549,19 +550,19 @@ by Prelude.")
 (with-eval-after-load 'flycheck
   (add-hook 'flycheck-mode-hook #'flycheck-inline-mode))
 
-(setq user-full-name "Saurav")
-(setq user-mail-address "saurav.kudajadri@gmail.com")
+(setq-default user-full-name "Saurav")
+(setq-default user-mail-address "saurav.kudajadri@gmail.com")
 
-(setq send-mail-function 'smtpmail-send-it
-      message-send-mail-function 'smtpmail-send-it)
+(setq-default send-mail-function 'smtpmail-send-it
+              message-send-mail-function 'smtpmail-send-it)
 
 
-(setq smtpmail-smtp-server "smtp.gmail.com"
-      smtpmail-smtp-service 587
-      smtpmail-stream-type 'starttls
-      smtpmail-debug-info t
-      smtpmail-debug-verb t
-      smtpmail-smtp-user "saurav.kudajadri@gmail.com")
+(setq-default smtpmail-smtp-server "smtp.gmail.com"
+              smtpmail-smtp-service 587
+              smtpmail-stream-type 'starttls
+              smtpmail-debug-info t
+              smtpmail-debug-verb t
+              smtpmail-smtp-user "saurav.kudajadri@gmail.com")
 
 
 ;; init.el ends here
