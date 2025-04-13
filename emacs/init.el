@@ -564,5 +564,11 @@ by Prelude.")
               smtpmail-debug-verb t
               smtpmail-smtp-user "saurav.kudajadri@gmail.com")
 
+;; Global auto fill mode
+(define-globalized-minor-mode my-global-auto-fill-mode
+  auto-fill-mode
+  (lambda () (auto-fill-mode 1)))
+
+(my-global-auto-fill-mode 1)
 
 ;; init.el ends here
