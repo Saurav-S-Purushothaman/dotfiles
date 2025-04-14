@@ -160,7 +160,12 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
                     :height 160)
 
 (setq enable-recursive-minibuffers t)
-(setq blink-cursor-blinks 0)
+
+
+(global-hl-line-mode 0)
+(scroll-bar-mode 0)
+;; (blink-cursor-mode 1)
+(global-display-line-numbers-mode -1)
 ;; font
 ;; (set-frame-font "Iosevka Fixed-16")
 (set-face-attribute 'default nil :family "Iosevka" :height 160)
@@ -175,14 +180,11 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
 
 
 (setq sp-highlight-pair-overlay nil)
-(setq global-hl-line-mode -1)
 (setq-default line-spacing 1)
 (setq-default fill-column 72)
 (setq-default auto-fill-mode t)
 (setq-default menu-bar--display-line-number-mode-relative)
 
-
-(blink-cursor-mode 1)
 
 ;; Toggle transparency
 (defun kb/toggle-window-transparency ()
