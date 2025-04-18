@@ -186,6 +186,7 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
 (setq-default menu-bar--display-line-number-mode-relative)
 
 
+
 ;; Toggle transparency
 (defun kb/toggle-window-transparency ()
   "Toggle transparency."
@@ -572,5 +573,23 @@ by Prelude.")
   (lambda () (auto-fill-mode 1)))
 
 (my-global-auto-fill-mode 1)
+
+(defun org-insert-src-block-edit (src-code-type)
+  "Insert a `SRC-CODE-TYPE' type source code block in org-mode."
+  (interactive
+   (let ((src-code-types
+          '("emacs-lisp" "python" "C" "sh" "java" "js" "clojure" "C++" "css"
+            "calc" "asymptote" "dot" "gnuplot" "ledger" "lilypond" "mscgen"
+            "octave" "oz" "plantuml" "R" "sass" "screen" "sql" "awk" "ditaa"
+            "haskell" "latex" "lisp" "matlab" "ocaml" "org" "perl" "ruby"
+            "scheme" "sqlite")))
+     (list (ido-completing-read "Source code type: " src-code-types))))
+  (progn
+    (newline-and-indent)
+    (insert (format "#+BEGIN_SRC %s\n" src-code-type))
+    (newline-and-indent)
+    (insert "#+END_SRC\n")
+    (previous-line 2)
+    (org-edit-src-code)))
 
 ;; init.el ends here
