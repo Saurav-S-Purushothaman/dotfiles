@@ -646,4 +646,21 @@ by Prelude.")
 
 (add-hook 'org-mode-hook #'my-org-faces)
 
+(set-frame-parameter (selected-frame) 'alpha '(92 50))
+(add-to-list 'default-frame-alist '(alpha 92 50))
+(eval-when-compile (require 'cl))
+(defun toggle-transparency ()
+  (interactive)
+  (if (/=
+       (cadr (frame-parameter nil 'alpha))
+       100)
+      (set-frame-parameter nil 'alpha '(100 100))
+    (set-frame-parameter nil 'alpha '(92 50))))
+(defun transparency (92)
+  "Sets the transparency of the frame window. 0=transparent/100=opaque"
+  (interactive "nTransparency Value 0 - 100 opaque:")
+  (set-frame-parameter (selected-frame) 'alpha value))
+;; Toggle the transparency with F5
+(global-set-key [f5] 'toggle-transparency)
+
 ;; init.el ends here
