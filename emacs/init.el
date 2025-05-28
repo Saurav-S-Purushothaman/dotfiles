@@ -663,4 +663,34 @@ by Prelude.")
 ;; Toggle the transparency with F5
 (global-set-key [f5] 'toggle-transparency)
 
+;; eshell startup banner
+(use-package em-banner
+  :custom
+  (eshell-banner-message "
+\x1b[32m                             'c.                    \x1b[0m
+\x1b[32m                          ,xNMM.                    \x1b[0m
+\x1b[32m                        .OMMMMo                     \x1b[0m
+\x1b[32m                        OMMM0,                      \x1b[0m
+\x1b[32m              .;loddo:' loolloddol;.                \x1b[0m
+\x1b[32m            cKMMMMMMMMMMNWMMMMMMMMMM0:              \x1b[0m
+\x1b[33m          .KMMMMMMMMMMMMMMMMMMMMMMMWd.              \x1b[0m
+\x1b[33m          XMMMMMMMMMMMMMMMMMMMMMMMX.                \x1b[0m
+\x1b[31m        ;MMMMMMMMMMMMMMMMMMMMMMMM:                  \x1b[0m
+\x1b[31m        :MMMMMMMMMMMMMMMMMMMMMMMM:                  \x1b[0m
+\x1b[31m        .MMMMMMMMMMMMMMMMMMMMMMMMX.                 \x1b[0m
+\x1b[31m         kMMMMMMMMMMMMMMMMMMMMMMMMWd.               \x1b[0m
+\x1b[35m          .XMMMMMMMMMMMMMMMMMMMMMMMMMMk             \x1b[0m
+\x1b[35m           .XMMMMMMMMMMMMMMMMMMMMMMMMK.             \x1b[0m
+\x1b[34m             kMMMMMMMMMMMMMMMMMMMMMMd               \x1b[0m
+\x1b[34m              ;KMMMMMMMWXXWMMMMMMMk.                \x1b[0m
+\x1b[34m                .cooc,.    .,coo:.                  \x1b[0m
+
+\x1b[34m                        _/                  _/  _/  \x1b[0m
+\x1b[34m     _/_/      _/_/_/  _/_/_/      _/_/    _/  _/   \x1b[0m
+\x1b[34m  _/_/_/_/  _/_/      _/    _/  _/_/_/_/  _/  _/    \x1b[0m
+\x1b[34m _/            _/_/  _/    _/  _/        _/  _/     \x1b[0m
+\x1b[34m  _/_/_/  _/_/_/    _/    _/    _/_/_/  _/  _/      \x1b[0m
+
+
+"))
 ;; init.el ends here
