@@ -693,4 +693,7 @@ by Prelude.")
 
 
 "))
+
+;; Modeline rendering artifact
+(setq ns-use-srgb-colorspace nil)
 ;; init.el ends here
