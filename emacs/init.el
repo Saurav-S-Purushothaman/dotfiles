@@ -696,4 +696,8 @@ by Prelude.")
 
 ;; Modeline rendering artifact
 (setq ns-use-srgb-colorspace nil)
+
+;; MacOS transparent title bar
+(add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
+(add-to-list 'default-frame-alist '(ns-appearance . dark))
 ;; init.el ends here
