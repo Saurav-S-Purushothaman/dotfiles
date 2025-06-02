@@ -524,12 +524,6 @@ by Prelude.")
 ;; set line cursor
 (setq-default cursor-type 'bar)
 
-(defun rc/colorize-compilation-buffer ()
-  (read-only-mode 'toggle)
-  (ansi-color-apply-on-region compilation-filter-start (point))
-  (read-only-mode 'toggle))
-(add-hook 'compilation-filter-hook 'rc/colorize-compilation-buffer)
-
 ;; toggle transparency
 (defconst rc/frame-transparency 75)
 
