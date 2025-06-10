@@ -168,7 +168,7 @@ Also ensures it's enabled automatically for new buffers with LSP mode."
 (global-display-line-numbers-mode -1)
 ;; font
 ;; (set-frame-font "Iosevka Fixed-16")
-(set-face-attribute 'default nil :family "Iosevka" :height 160)
+(set-face-attribute 'default nil :family "Iosevka" :height 180)
 
 ;; Remove scroll bar
 (scroll-bar-mode 0)
@@ -694,4 +694,7 @@ by Prelude.")
 ;; MacOS transparent title bar
 (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
 (add-to-list 'default-frame-alist '(ns-appearance . dark))
+
+;; Smooth scrolling mode
+(smooth-scrolling-mode 1)
 ;; init.el ends here
