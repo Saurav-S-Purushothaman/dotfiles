@@ -72,3 +72,16 @@ tmux rename-window "petrel"
 tmux send-keys "cd petrel" C-m
 tmux send-keys "source ./bin/activate" C-m
 tmux send-keys "uvicorn main:app --reload" C-m
+
+# Start PDF service
+# worker
+tmux new-window
+tmux rename-window "pdf"
+tmux send-keys "cd unifize-server/apps/pdf-worker && lein repl" C-m
+sleep 1
+tmux send-keys "(go)" C-m
+# aggregator
+tmux split-window -v
+tmux send-keys "cd unifize-server/apps/pdf-aggregator && lein repl" C-m
+sleep 1
+tmux send-keys "(go)" C-m
