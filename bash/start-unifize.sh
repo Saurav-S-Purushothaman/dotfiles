@@ -28,13 +28,13 @@ tmux send-keys " ./bin/zookeeper-server-start.sh config/zookeeper.properties" C-
 # active.
 sleep 20
 
-tmux split-window -h
+tmux split-window -v
 tmux send-keys "cd kafka_2.13-3.5.0" C-m
 tmux send-keys "./bin/kafka-server-start.sh config/server.properties" C-m
 
 # wait for seconds for the kafka server to start.
 sleep 10
-tmux split-window -h
+tmux split-window -v
 tmux send-keys "cd kafka_2.13-3.5.0" C-m
 tmux send-keys " ./bin/connect-standalone.sh config/connect-standalone.properties config/debezium.properties"
 
@@ -47,7 +47,7 @@ tmux send-keys "cd unifize-server/apps/xtdb-builder && lein repl" C-m
 sleep 1
 tmux send-keys "(go)" C-m
 
-tmux split-window -h
+tmux split-window -v
 tmux send-keys "cd unifize-server/apps/xtdb-processor && lein repl" C-m
 sleep 1
 tmux send-keys "(go)" C-m
@@ -60,9 +60,9 @@ tmux send-keys "lein with-profile +worker repl" C-m
 sleep 1
 tmux send-keys "(go)" C-m
 
-tmux split-window -h
+tmux split-window -v
 tmux send-keys "cd unifize-server/apps/budgie" C-m
-tmux send-keys "lein with-profile +api repl"
+tmux send-keys "lein with-profile +api repl" C-m
 sleep 1
 tmux send-keys "(go)" C-m
 
@@ -71,4 +71,4 @@ tmux new-window
 tmux rename-window "petrel"
 tmux send-keys "cd petrel" C-m
 tmux send-keys "source ./bin/activate" C-m
-tmux send-keys "uvicorn main:app --reload"
+tmux send-keys "uvicorn main:app --reload" C-m
