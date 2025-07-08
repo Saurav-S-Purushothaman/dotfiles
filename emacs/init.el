@@ -697,4 +697,7 @@ by Prelude.")
 
 ;; Smooth scrolling mode
 (smooth-scrolling-mode 1)
+
+;; Org html theme header.
+;; #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 ;; init.el ends here
