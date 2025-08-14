@@ -701,3 +701,5 @@ by Prelude.")
 ;; Org html theme header.
 ;; #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 ;; init.el ends here
+
+(setq whitespace-style '(tabs empty trailing lines-tail))
