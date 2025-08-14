@@ -2,7 +2,7 @@
 
 # Start the API server
 tmux new-window
-tmux rename-windoow "api"
+tmux rename-window "api"
 tmux send-keys "cd unifize-server/apps/api && lein repl" C-m
 sleep 1
 tmux send-keys "(go)" C-m
