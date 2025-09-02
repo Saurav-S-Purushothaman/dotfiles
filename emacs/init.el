@@ -703,3 +703,47 @@ by Prelude.")
 ;; init.el ends here
 
 (setq whitespace-style '(tabs empty trailing lines-tail))
+
+
+(use-package fontaine
+    :ensure t
+    :if (display-graphic-p)
+    :config
+    ;; This is defined in Emacs C code: it belongs to font settings.
+    (setq x-underline-at-descent-line nil)
+
+    ;; And this is for Emacs28.
+    (setq-default text-scale-remap-header-line t)
+
+    ;; This is the default value.  Just including it here for
+    ;; completeness.
+    (setq fontaine-latest-state-file (locate-user-emacs-file "fontaine-latest-state.eld"))
+
+    (setq fontaine-presets
+          '((small
+             :default-height 130)
+            (regular
+             :default-height 150)
+            (medium
+             :default-weight semilight
+             :default-height 170
+             :bold-weight extrabold)
+            (large
+             :inherit medium
+             :default-height 190)
+            (presentation
+             :inherit medium
+             :default-height 250)
+            (jumbo
+             :inherit medium
+             :default-height 330)
+            (t
+             ;; See the fontaine manual for the technicalities:
+             ;; <https://protesilaos.com/emacs/fontaine>.
+             :default-family "Iosevka"
+             :default-weight normal
+             :variable-pitch-family "Iosevka"
+             :variable-pitch-height 1.05)))
+
+    (fontaine-set-preset (or (fontaine-restore-latest-preset) 'regular))
+    (fontaine-mode 1))
