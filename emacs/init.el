@@ -704,7 +704,7 @@ by Prelude.")
 
 (setq whitespace-style '(tabs empty trailing lines-tail))
 
-
+;; The following code are from unravel team - https://github.com/unravel-team/emacs
 (use-package fontaine
     :ensure t
     :if (display-graphic-p)
