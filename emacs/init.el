@@ -774,3 +774,123 @@ by Prelude.")
           (t . (variable-pitch 1.1))))
   (setq ef-themes-disable-other-themes t)
   (mapc #'disable-theme custom-enabled-themes))
+
+
+(use-package ef-themes
+  :ensure t
+  :demand t
+  :bind
+  (("<f5>" . ef-themes-rotate)
+   ("C-<f5>" . ef-themes-select))
+  :config
+  (setq ef-themes-to-toggle '(ef-elea-light ef-elea-dark))
+  (setq ef-themes-variable-pitch-ui t)
+  (setq ef-themes-mixed-fonts t)
+  (setq ef-themes-rotate ef-themes-items)
+  (setq ef-themes-headings      ; read the manual's entry of the doc string
+        '((0 . (variable-pitch light 1.9))
+          (1 . (variable-pitch light 1.8))
+          (2 . (variable-pitch regular 1.7))
+          (3 . (variable-pitch regular 1.6))
+          (4 . (variable-pitch regular 1.5))
+          (5 . (variable-pitch 1.4))  ; absence of weight means `bold'
+          (6 . (variable-pitch 1.3))
+          (7 . (variable-pitch 1.2))
+          (agenda-date . (semilight 1.5))
+          (agenda-structure . (variable-pitch light 1.9))
+          (t . (variable-pitch 1.1))))
+  (setq ef-themes-disable-other-themes t)
+  (mapc #'disable-theme custom-enabled-themes))
+
+;; cursory for cursor appearance
+(use-package cursory
+  :ensure t
+  :demand t
+  :if (display-graphic-p)
+  :config
+  (setq cursory-presets
+        '((box
+           :blink-cursor-interval 1.0)
+          (box-no-blink
+           :blink-cursor-mode -1)
+          (bar
+           :cursor-type (bar . 2)
+           :blink-cursor-interval 0.8)
+          (bar-no-other-window
+           :inherit bar
+           :cursor-in-non-selected-windows nil)
+          (bar-no-blink
+           :cursor-type (bar . 2)
+           :blink-cursor-mode -1)
+          (underscore
+           :cursor-type (hbar . 3)
+           :blink-cursor-interval 0.3
+           :blink-cursor-blinks 50)
+          (underscore-no-other-window
+           :inherit underscore
+           :cursor-in-non-selected-windows nil)
+          (underscore-thick
+           :cursor-type (hbar . 8)
+           :blink-cursor-interval 0.3
+           :blink-cursor-blinks 50
+           :cursor-in-non-selected-windows (hbar . 3))
+          (underscore-thick-no-blink
+           :blink-cursor-mode -1
+           :cursor-type (hbar . 8)
+           :cursor-in-non-selected-windows (hbar . 3))
+          (t ; the default values
+           :cursor-type box
+           :cursor-in-non-selected-windows hollow
+           :blink-cursor-mode 1
+           :blink-cursor-blinks 10
+           :blink-cursor-interval 0.2
+           :blink-cursor-delay 0.2)))
+
+  ;; I am using the default values of `cursory-latest-state-file'.
+
+  ;; Set last preset or fall back to desired style from `cursory-presets'.
+  (cursory-set-preset (or (cursory-restore-latest-preset) 'box))
+
+  (cursory-mode 1))
+
+(use-package theme-buffet
+  :ensure t
+  :after (:any modus-themes ef-themes)
+  :config
+  (let ((modus-themes-p (featurep 'modus-themes))
+        (ef-themes-p (featurep 'ef-themes)))
+    (setq theme-buffet-menu 'end-user)
+    (setq theme-buffet-time-offset 0)
+    (setq theme-buffet-end-user
+          '( :night     (ef-dark ef-winter ef-autumn ef-night ef-duo-dark ef-symbiosis ef-owl)
+             :morning   (ef-light ef-cyprus ef-spring ef-frost ef-duo-light ef-eagle)
+             :afternoon (ef-arbutus ef-day ef-kassio ef-summer ef-elea-light ef-maris-light ef-melissa-light ef-trio-light ef-reverie)
+             :evening   (ef-rosa ef-elea-dark ef-maris-dark ef-melissa-dark ef-trio-dark ef-dream)))
+
+    (when (or modus-themes-p ef-themes-p)
+      (theme-buffet-timer-hours 2)
+      (theme-buffet-a-la-carte))))
+
+
+;;;;; `variable-pitch-mode' setup
+(use-package face-remap
+  :ensure nil
+  :functions prot/enable-variable-pitch
+  :bind ( :map ctl-x-x-map
+          ("v" . variable-pitch-mode))
+  :hook ((text-mode notmuch-show-mode elfeed-show-mode) . prot/enable-variable-pitch)
+  :config
+  ;; NOTE 2022-11-20: This may not cover every case, though it works
+  ;; fine in my workflow.  I am still undecided by EWW.
+  (defun prot/enable-variable-pitch ()
+    (unless (derived-mode-p 'mhtml-mode 'nxml-mode 'yaml-mode)
+      (variable-pitch-mode 1)))
+;;;;; Resize keys with global effect
+  :bind
+  ;; Emacs 29 introduces commands that resize the font across all
+  ;; buffers (including the minibuffer), which is what I want, as
+  ;; opposed to doing it only in the current buffer.  The keys are the
+  ;; same as the defaults.
+  (("C-x C-=" . global-text-scale-adjust)
+   ("C-x C-+" . global-text-scale-adjust)
+   ("C-x C-0" . global-text-scale-adjust)))
