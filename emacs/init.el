@@ -512,8 +512,8 @@ by Prelude.")
 
 (defun rc/rgrep-selected (beg end)
   (interactive (if (use-region-p)
-                 (list (region-beginning) (region-end))
-               (list (point-min) (point-min))))
+                   (list (region-beginning) (region-end))
+                 (list (point-min) (point-min))))
   (rgrep (buffer-substring-no-properties beg end) "*" (pwd)))
 
 (global-set-key (kbd "C-x c s") 'rc/rgrep-selected)
@@ -669,47 +669,47 @@ by Prelude.")
 
 ;; The following code are from unravel team - https://github.com/unravel-team/emacs
 (use-package fontaine
-    :ensure t
-    :if (display-graphic-p)
-    :config
-    ;; This is defined in Emacs C code: it belongs to font settings.
-    (setq x-underline-at-descent-line nil)
+  :ensure t
+  :if (display-graphic-p)
+  :config
+  ;; This is defined in Emacs C code: it belongs to font settings.
+  (setq x-underline-at-descent-line nil)
 
-    ;; And this is for Emacs28.
-    (setq-default text-scale-remap-header-line t)
+  ;; And this is for Emacs28.
+  (setq-default text-scale-remap-header-line t)
 
-    ;; This is the default value.  Just including it here for
-    ;; completeness.
-    (setq fontaine-latest-state-file (locate-user-emacs-file "fontaine-latest-state.eld"))
+  ;; This is the default value.  Just including it here for
+  ;; completeness.
+  (setq fontaine-latest-state-file (locate-user-emacs-file "fontaine-latest-state.eld"))
 
-    (setq fontaine-presets
-          '((small
-             :default-height 130)
-            (regular
-             :default-height 150)
-            (medium
-             :default-weight semilight
-             :default-height 170
-             :bold-weight extrabold)
-            (large
-             :inherit medium
-             :default-height 190)
-            (presentation
-             :inherit medium
-             :default-height 250)
-            (jumbo
-             :inherit medium
-             :default-height 330)
-            (t
-             ;; See the fontaine manual for the technicalities:
-             ;; <https://protesilaos.com/emacs/fontaine>.
-             :default-family "Iosevka"
-             :default-weight normal
-             :variable-pitch-family "Iosevka"
-             :variable-pitch-height 1.05)))
+  (setq fontaine-presets
+        '((small
+           :default-height 130)
+          (regular
+           :default-height 150)
+          (medium
+           :default-weight semilight
+           :default-height 170
+           :bold-weight extrabold)
+          (large
+           :inherit medium
+           :default-height 190)
+          (presentation
+           :inherit medium
+           :default-height 250)
+          (jumbo
+           :inherit medium
+           :default-height 330)
+          (t
+           ;; See the fontaine manual for the technicalities:
+           ;; <https://protesilaos.com/emacs/fontaine>.
+           :default-family "Iosevka"
+           :default-weight normal
+           :variable-pitch-family "Iosevka"
+           :variable-pitch-height 1.05)))
 
-    (fontaine-set-preset (or (fontaine-restore-latest-preset) 'regular))
-    (fontaine-mode 1))
+  (fontaine-set-preset (or (fontaine-restore-latest-preset) 'regular))
+  (fontaine-mode 1))
 
 
 (use-package ef-themes
@@ -878,37 +878,37 @@ by Prelude.")
   :config
   ;; Enable all Iosevka ligatures in programming modes
   (use-package ligature
-  :load-path "path-to-ligature-repo"
-  :config
-  (ligature-set-ligatures 'prog-mode '("-->" "->" "->>" "-<" "--<"
-                                       "-~" "]#" ".-" "!=" "!=="
-                                       "#(" "#{" "#[" "#_" "#_("
-                                       "/=" "/==" "|||" "||" ;; "|"
-                                       "==" "===" "==>" "=>" "=>>"
-                                       "=<<" "=/" ">-" ">->" ">="
-                                       ">=>" "<-" "<--" "<->" "<-<"
-                                       "<!--" "<|" "<||" "<|||"
-                                       "<|>" "<=" "<==" "<==>" "<=>"
+    :load-path "path-to-ligature-repo"
+    :config
+    (ligature-set-ligatures 'prog-mode '("-->" "->" "->>" "-<" "--<"
+                                         "-~" "]#" ".-" "!=" "!=="
+                                         "#(" "#{" "#[" "#_" "#_("
+                                         "/=" "/==" "|||" "||" ;; "|"
+                                         "==" "===" "==>" "=>" "=>>"
+                                         "=<<" "=/" ">-" ">->" ">="
+                                         ">=>" "<-" "<--" "<->" "<-<"
+                                         "<!--" "<|" "<||" "<|||"
+                                         "<|>" "<=" "<==" "<==>" "<=>"
 
-                                       "<=<" "<<-" "<<=" "<~" "<~>"
-                                       "<~~" "~-" "~@" "~=" "~>"
-                                       "~~" "~~>" ".=" "..=" "---"
-                                       "{|" "[|" ".."  "..."  "..<"
-                                       ".?"  "::" ":::" "::=" ":="
-                                       ":>" ":<" ";;" "!!"  "!!."
-                                       "!!!"  "?."  "?:" "??"  "?="
-                                       "**" "***" "*>" "*/" "#:"
-                                       "#!"  "#?"  "##" "###" "####"
-                                       "#=" "/*" "/>" "//" "///"
-                                       "&&" "|}" "|]" "$>" "++"
-                                       "+++" "+>" "=:=" "=!=" ">:"
-                                       ">>" ">>>" "<:" "<*" "<*>"
-                                       "<$" "<$>" "<+" "<+>" "<>"
-                                       "<<" "<<<" "</" "</>" "^="
-                                       "%%" "'''" "\"\"\"" ))
-  ;; Enables ligature checks globally in all buffers. You can also do it
-  ;; per mode with `ligature-mode'.
-  (global-ligature-mode t))
+                                         "<=<" "<<-" "<<=" "<~" "<~>"
+                                         "<~~" "~-" "~@" "~=" "~>"
+                                         "~~" "~~>" ".=" "..=" "---"
+                                         "{|" "[|" ".."  "..."  "..<"
+                                         ".?"  "::" ":::" "::=" ":="
+                                         ":>" ":<" ";;" "!!"  "!!."
+                                         "!!!"  "?."  "?:" "??"  "?="
+                                         "**" "***" "*>" "*/" "#:"
+                                         "#!"  "#?"  "##" "###" "####"
+                                         "#=" "/*" "/>" "//" "///"
+                                         "&&" "|}" "|]" "$>" "++"
+                                         "+++" "+>" "=:=" "=!=" ">:"
+                                         ">>" ">>>" "<:" "<*" "<*>"
+                                         "<$" "<$>" "<+" "<+>" "<>"
+                                         "<<" "<<<" "</" "</>" "^="
+                                         "%%" "'''" "\"\"\"" ))
+    ;; Enables ligature checks globally in all buffers. You can also do it
+    ;; per mode with `ligature-mode'.
+    (global-ligature-mode t))
   ;; Enables ligature checks globally in all buffers. You can also do it
   ;; per mode with `ligature-mode'.
   (global-ligature-mode t))
@@ -936,3 +936,57 @@ by Prelude.")
   (require 'cal-dst)
   (setq calendar-standard-time-zone-name "+0200")
   (setq calendar-daylight-time-zone-name "+0300"))
+
+
+(use-package apheleia
+  :ensure t
+  :demand t
+  :config
+  (apheleia-global-mode +1)
+  (with-eval-after-load 'apheleia-formatters
+    (push '(zprint . ("zprint")) apheleia-formatters)))
+
+
+(use-package isearch
+  :ensure nil
+  :demand t
+  :config
+  (setq search-whitespace-regexp ".*?" ; one `setq' here to make it obvious they are a bundle
+        isearch-lax-whitespace t
+        isearch-regexp-lax-whitespace nil))
+
+(use-package isearch
+  :ensure nil
+  :demand t
+  :config
+  (setq search-highlight t)
+  (setq isearch-lazy-highlight t)
+  (setq lazy-highlight-initial-delay 0.5)
+  (setq lazy-highlight-no-delay-length 4))
+
+(use-package isearch
+  :ensure nil
+  :demand t
+  :config
+  (setq isearch-lazy-count t)
+  (setq lazy-count-prefix-format "(%s/%s) ")
+  (setq lazy-count-suffix-format nil))
+
+(use-package isearch
+  :ensure nil
+  :demand t
+  :config
+  (setq list-matching-lines-jump-to-current-line nil) ; do not jump to current line in `*occur*' buffers
+  (add-hook 'occur-mode-hook #'hl-line-mode))
+
+(use-package isearch
+  :ensure nil
+  :demand t
+  :bind
+  ( :map minibuffer-local-isearch-map
+    ("M-/" . isearch-complete-edit)
+    :map occur-mode-map
+    ("t" . toggle-truncate-lines)
+    :map isearch-mode-map
+    ("C-g" . isearch-cancel) ; instead of `isearch-abort'
+    ("M-/" . isearch-complete)))
