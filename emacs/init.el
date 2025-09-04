@@ -871,3 +871,44 @@ by Prelude.")
           "⏻ %b%p%% "))))
 
 (setq display-battery-mode 1)
+
+
+(use-package ligature
+  :load-path "path-to-ligature-repo"
+  :config
+  ;; Enable all Iosevka ligatures in programming modes
+  (use-package ligature
+  :load-path "path-to-ligature-repo"
+  :config
+  (ligature-set-ligatures 'prog-mode '("-->" "->" "->>" "-<" "--<"
+                                       "-~" "]#" ".-" "!=" "!=="
+                                       "#(" "#{" "#[" "#_" "#_("
+                                       "/=" "/==" "|||" "||" ;; "|"
+                                       "==" "===" "==>" "=>" "=>>"
+                                       "=<<" "=/" ">-" ">->" ">="
+                                       ">=>" "<-" "<--" "<->" "<-<"
+                                       "<!--" "<|" "<||" "<|||"
+                                       "<|>" "<=" "<==" "<==>" "<=>"
+
+                                       "<=<" "<<-" "<<=" "<~" "<~>"
+                                       "<~~" "~-" "~@" "~=" "~>"
+                                       "~~" "~~>" ".=" "..=" "---"
+                                       "{|" "[|" ".."  "..."  "..<"
+                                       ".?"  "::" ":::" "::=" ":="
+                                       ":>" ":<" ";;" "!!"  "!!."
+                                       "!!!"  "?."  "?:" "??"  "?="
+                                       "**" "***" "*>" "*/" "#:"
+                                       "#!"  "#?"  "##" "###" "####"
+                                       "#=" "/*" "/>" "//" "///"
+                                       "&&" "|}" "|]" "$>" "++"
+                                       "+++" "+>" "=:=" "=!=" ">:"
+                                       ">>" ">>>" "<:" "<*" "<*>"
+                                       "<$" "<$>" "<+" "<+>" "<>"
+                                       "<<" "<<<" "</" "</>" "^="
+                                       "%%" "'''" "\"\"\"" ))
+  ;; Enables ligature checks globally in all buffers. You can also do it
+  ;; per mode with `ligature-mode'.
+  (global-ligature-mode t))
+  ;; Enables ligature checks globally in all buffers. You can also do it
+  ;; per mode with `ligature-mode'.
+  (global-ligature-mode t))
