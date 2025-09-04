@@ -519,10 +519,10 @@ by Prelude.")
 (global-set-key (kbd "C-x c s") 'rc/rgrep-selected)
 
 ;; Set box cursor
-(setq-default cursor-type 'box)
+;; (setq-default cursor-type 'box)
 
 ;; set line cursor
-(setq-default cursor-type 'bar)
+;; (setq-default cursor-type 'bar)
 
 ;; toggle transparency
 (defconst rc/frame-transparency 75)
@@ -894,3 +894,17 @@ by Prelude.")
   (("C-x C-=" . global-text-scale-adjust)
    ("C-x C-+" . global-text-scale-adjust)
    ("C-x C-0" . global-text-scale-adjust)))
+
+;; show battery percentage on emacs
+(use-package battery
+  :ensure nil
+  :hook (elpaca-after-init . display-battery-mode)
+  :config
+  (setq battery-mode-line-format
+        (cond
+         ((eq battery-status-function #'battery-linux-proc-acpi)
+          "⏻ %b%p%%,%d°C ")
+         (battery-status-function
+          "⏻ %b%p%% "))))
+
+(setq display-battery-mode 1)
