@@ -603,43 +603,6 @@ by Prelude.")
     (insert "#+END_SRC\n")
     (previous-line 2)))
 
-(defun my-org-faces ()
-  "Custom faces and Org settings for a cleaner, wider look."
-  (interactive)
-  ;; Scale and stretch the document title (#+TITLE)
-  (set-face-attribute 'org-document-title nil
-                      :family "iosevka"
-                      :weight 'bold
-                      :height 1.8
-                      :width 'expanded)
-
-  ;;  Document info keywords (#+AUTHOR, #+DATE, etc)
-  (set-face-attribute 'org-document-info-keyword nil
-                      :family "iosevka"
-                      :weight 'bold
-                      :height 1.1
-                      :width 'expanded)
-
-  ;;  Document info values (author name, date)
-  (set-face-attribute 'org-document-info nil
-                      :family "iosevka"
-                      :slant 'italic
-                      :height 1.0
-                      :width 'expanded)
-
-  ;; header levels, blocks, links, etc…
-  (dolist (spec '((1 . 1.5) (2 . 1.3) (3 . 1.2) (4 . 1.1)))
-    (let ((lvl (car spec))
-          (scale (cdr spec)))
-      (set-face-attribute
-       (intern (format "org-level-%d" lvl)) nil
-       :family "Sans Serif"
-       :weight 'semi-bold
-       :height scale
-       :width 'expanded))))
-
-(add-hook 'org-mode-hook #'my-org-faces)
-
 (set-frame-parameter (selected-frame) 'alpha '(92 50))
 (add-to-list 'default-frame-alist '(alpha 92 50))
 (eval-when-compile (require 'cl))
