@@ -990,3 +990,10 @@ by Prelude.")
     :map isearch-mode-map
     ("C-g" . isearch-cancel) ; instead of `isearch-abort'
     ("M-/" . isearch-complete)))
+
+
+(defun scratchpad ()
+  (interactive)
+  (switch-to-buffer "scratchpad.org"))
+
+(global-set-key (kbd "C-c h")  #'scratchpad)
